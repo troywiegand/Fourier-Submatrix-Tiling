@@ -1,3 +1,15 @@
+//Most Up to date version of Tiling Check Program
+//Can handle Newman Method
+
+//CM Properties
+//Can Check Condition T1 (up to deg{A}<=20)
+//Can Check Condition T2 (unreliably)
+
+
+//Tiling Set
+//Need to Get Period N
+//Need to Get Translation Set B
+
 #include <fstream>
 #include <iostream>
 #include <cstring>
@@ -6,7 +18,6 @@
 #include <cmath>
 #include <math.h>
 
-//NEED TO ADD EITHER FORMULA OR HARD WIRE MORE
 using namespace std;	
 
 //Declaring all of my functions
@@ -19,8 +30,6 @@ string CM_Check(int a, int Check[]);
 bool BigPi(bool SA[], int a);
 bool T2_if(bool SA[]);
 bool T2_then(bool SA[], int Check[], int a);
-double evalPolyDiv(int N[],int Ndeg, int D[], int Ddeg, int point);
-int horner(int n, int Polynomial[], int point);
 
 
 void Print(char c, int d, double* A) {

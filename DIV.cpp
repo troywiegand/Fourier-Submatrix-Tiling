@@ -1,13 +1,15 @@
+//Isolated version of Polynomial Division Code
+
 #include <iostream>
 #include <math.h>
 
 using namespace std;
 
-// does:  prints all members of vector
-// input: c - ASCII char with the name of the vector
-//        d - degree of vector
-//        A - pointer to vector
-void Print(char c, int d, double* A) {
+// does:  prints all members of matrix
+// input: c - ASCII char with the name of the matrix
+//        d - degree of matrix
+//        A - matrix
+void Print(char c, int d, double A[]) {
 	int i;
 
 	for (i=0; i < d+1; i++)
@@ -16,11 +18,9 @@ void Print(char c, int d, double* A) {
 }
 
 int main() {
-	// vectors - N / D = q       N % D = r
-	int dN, dD, dd, dq, dr;	// degrees of vectors
-	int i;					// iterators
+	int dN, dD, dd, dq, dr;	// degrees of matrices
 
-// setting the degrees of vectors
+// setting the degrees of matrices
 	cout << "Enter the degree of N:";
 	cin >> dN;
 	cout << "Enter the degree of D:";
@@ -29,33 +29,33 @@ int main() {
 	dr = dN-dD;
 
 
-// allocation and initialization of vectors
+// allocation and initialization of matrices
 	 double N[dN+1];					
 	cout << "Enter the coefficients of N:"<<endl;
-	for ( i = 0; i < dN+1; i++ ) {
+	for (int i = 0; i < dN+1; i++ ) {
 		cout << "N[" << i << "]= " << endl;
 		cin >> N[i];
 	}
 
 	double D[dN+1];
 	cout << "Enter the coefficients of D:"<<endl;	
-	for ( i = 0; i < dD+1; i++ ) {
+	for (int i = 0; i < dD+1; i++ ) {
 		cout << "D[" << i << "]= " << endl;
 		cin >> D[i];
 	}
 
 	 double d[dN+1];
-	for( i = dD+1 ; i < dN+1; i++ ) {
+	for(int i = dD+1 ; i < dN+1; i++ ) {
 		D[i] = 0;
 	}
 
 	double q[dq+1];
-	for( i = 0 ; i < dq + 1 ; i++ ) {
+	for(int i = 0 ; i < dq + 1 ; i++ ) {
 		q[i] = 0;
 	}
 
 	double r[dr+1];
-	for( i = 0 ; i < dr + 1 ; i++ ) {
+	for(int i = 0 ; i < dr + 1 ; i++ ) {
 		r[i] = 0;
 	}
 
@@ -67,10 +67,10 @@ int main() {
 	if( dN >= dD ) {
 		while(dN >= dD) {
 // d equals D shifted right
-			for( i = 0 ; i < dN + 1 ; i++ ) {
+			for( int i = 0 ; i < dN + 1 ; i++ ) {
 				d[i] = 0;
 			}
-			for( i = 0 ; i < dD + 1 ; i++ ) {
+			for(int i = 0 ; i < dD + 1 ; i++ ) {
 				d[i+dN-dD] = D[i];
 			}
 			dd = dN;
@@ -83,14 +83,14 @@ int main() {
 			Print( 'q', dq, q );
 
 // d equals d * q[dN-dD]
-			for( i = 0 ; i < dq + 1 ; i++ ) {
+			for( int i = 0 ; i < dq + 1 ; i++ ) {
 				d[i] = d[i] * q[dN-dD];
 			}
 
 			Print( 'd', dd, d );
 
 // N equals N - d
-			for( i = 0 ; i < dN + 1 ; i++ ) {
+			for(int i = 0 ; i < dN + 1 ; i++ ) {
 				N[i] = N[i] - d[i];
 			}
 			dN--;
@@ -109,7 +109,7 @@ int main() {
 	}
 
 // r equals N
-	for( i = 0 ; i < dN + 1 ; i++ ) {
+	for(int i = 0 ; i < dN + 1 ; i++ ) {
 		r[i] = N[i];
 	}
 	dr = dN;

@@ -1,3 +1,6 @@
+//This is the first version of the Tiling Check Program that only does Newman method
+
+
 #include <fstream>
 #include <iostream>
 #include <cstring>
