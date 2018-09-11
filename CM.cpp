@@ -22,6 +22,15 @@ bool T2_then(bool SA[], int Check[], int a);
 double evalPolyDiv(int N[],int Ndeg, int D[], int Ddeg, int point);
 int horner(int n, int Polynomial[], int point);
 
+
+void Print(char c, int d, double* A) {
+	int i;
+
+	for (i=0; i < d+1; i++)
+			cout << c << "[" << i << "]= " << A[i] << endl;
+	cout << "Degree of " << c << ": " << d << endl << endl;
+}
+
 //Declaring my prime power Phi's globally 
 //so I don't have to reallocate multiple times
 	int Phi2  []={1,1};
@@ -34,6 +43,10 @@ int horner(int n, int Polynomial[], int point);
 	int Phi11 []={1,1,1,1,1,1,1,1,1,1,1};
 	int Phi13 []={1,1,1,1,1,1,1,1,1,1,1,1,1};
     int Phi17 []={1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+	int Phi32 []={1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1};
+	int Phi19 []={1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+	int Phi27 []={1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1};
+	int Phi25 []={1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1};
 /////////////////////////////////////////////////////
 
 //Converts things to strings
@@ -256,61 +269,126 @@ string NewmanCheck(int Check[], int a){
 //Instead of Long Div I am using deg of Check+1 function evals
 int PolyDiv(int Check[], int BigPhi[], int a, int b) {
 
-bool alwaysZero=true;
+	int dN, dD, dd, dq, dr;	// degrees of vectors
+	int i;					// iterators
+
+// setting the degrees of vectors
+	dN=a;
+	dD=b;
+	dq = dN-dD;
+	dr = dD-1;
 
 
-//makes the Check array into an easier to process form
-int N[a+1];
-int CheckCoef=0;					
-	for (int i = 0; i < a+1; i++ ) {
-		if(Check[CheckCoef]==i){
+// allocation and initialization of vectors
+	double N[dN+1];	
+	int checkNumber=0;	
+	for ( int i = 0; i < dN+1; i++ ) {
+		if(Check[checkNumber]==i){
 			N[i]=1;
-			CheckCoef++;
+			checkNumber++;
 		}
 		else{
 			N[i]=0;
 		}
 	}
 
-//the Deg of A(x) +1 function evals
-//If A(x_0) mod Phi(x_0) != 0 then it will be false
-for(int i=0; i<4;i++){
-   if(evalPolyDiv(N,a+1,BigPhi,b+1,i)!=0)
-    alwaysZero=false;
+
+
+
+	double D[dN+1];
+	//cout << "Enter the coefficients of D:"<<endl;	
+	for ( int i = 0; i < dD+1; i++ ) {
+		D[i]=BigPhi[i];
+	}
+
+	double d[dN+1];
+	for( i = dD+1 ; i < dN+1; i++ ) {
+		D[i] = 0;
+	}
+
+	double q[dq+1];
+	for( i = 0 ; i < dq + 1 ; i++ ) {
+		q[i] = 0;
+	}
+
+	double r[dr+1];
+	for( i = 0 ; i < dr + 1 ; i++ ) {
+		r[i] = 0;
+	}
+
+	if( dD < 0) {
+	//	cout << "Degree of D is less than zero. Error!";
+	}
+
+	//cout << "-- Procedure --" << endl << endl;
+	if( dN >= dD ) {
+		while(dN >= dD) {
+// d equals D shifted right
+			for( i = 0 ; i < dN + 1 ; i++ ) {
+				d[i] = 0;
+			}
+			for( i = 0 ; i < dD + 1 ; i++ ) {
+				d[i+dN-dD] = D[i];
+			}
+			dd = dN;
+
+			//Print( 'd', dd, d );
+
+// calculating one element of q
+			q[dN-dD] = N[dN]/d[dd];
+
+			//Print( 'q', dq, q );
+
+// d equals d * q[dN-dD]
+			for( i = 0 ; i < dq + 1 ; i++ ) {
+				d[i] = d[i] * q[dN-dD];
+			}
+
+			//Print( 'd', dd, d );
+
+// N equals N - d
+			for( i = 0 ; i < dN + 1 ; i++ ) {
+				N[i] = N[i] - d[i];
+			}
+			dN--;
+			for(int j=dN; j>-1; j--){
+				if(N[j]!=0){
+					dN=j;
+					j=-1;
+				}
+			}
+
+			//Print( 'N', dN, N );
+			//cout << "-----------------------" << endl << endl;
+
+		}
+
+	}
+
+// r equals N
+	for( i = 0 ; i < dN + 1 ; i++ ) {
+		r[i] = N[i];
+	}
+	dr = dN;
+
+	//cout << "=========================" << endl << endl;
+	//cout << "-- Result --" << endl << endl;
+
+	//Print( 'q', dq, q );
+	//Print( 'r', dr, r );
+	bool answer=true;
+
+	for(int i=0; i<=dr; i++){
+		if(r[i]!=0)
+		answer=false;
+	}
+	
+
+
+return answer;
 }
 
-	return alwaysZero;
-}
 
-int horner(int n, int Polynomial[], int point) {
-  
-  int f;
-
-  int flippedPoly[n];
-  for(int j=0; j<n; j++){
-	  flippedPoly[j]=Polynomial[n-j-1];
-  }
-  
-  f = flippedPoly[0];
-  for ( int i=1; i<n; i++ ) {
-    f = f*point + flippedPoly[i];
-  }
-  return(f);
-}
-
-//this function will return A(x_0) mod Phi(x_0)
-double evalPolyDiv(int N[],int Ndeg, int D[], int Ddeg, int point){
-     int Neval=0;
-     int Deval=0;
-
-	Neval=horner(Ndeg, N, point);
-
-	Deval=horner(Ddeg, D, point);
-	//cout<<"pointth time "<<point<<"   Neval: "<<Neval<<"  Deval:  "<<Deval<<endl;
-	//cout<<Neval%Deval<<endl;
-    return Neval%Deval;
-
-}
 
 //This function tests the CM Properties
 string CM_Check(int a, int Check[]){
@@ -319,48 +397,64 @@ string CM_Check(int a, int Check[]){
 	//This array of booleans will track our set of S_A 's
 	//I am indexing this with 0 (i.e. if Phi_2 divides SA[2]==true)
 	bool SA[100];
+	for(int i=0;i<50;i++)
+		SA[i]=false;
 	
 //This series of if statements will generate S_A up to 17
 	if(polyDeg>=1){
 		SA[2]=PolyDiv(Check, Phi2, polyDeg, 1);
-		//cout<<" Phi_2 : "<<SA[2]<<endl;
+		cout<<" Phi_2 : "<<SA[2]<<endl;
 	}
 
 	if(polyDeg>=2){
 		SA[3]=PolyDiv(Check, Phi3, polyDeg, 2);
-		//cout<<"Phi_3 : "<<SA[3]<<endl;
+		cout<<"Phi_3 : "<<SA[3]<<endl;
 		SA[4]=PolyDiv(Check, Phi4, polyDeg, 2);
-		//cout<<"Phi_4 : "<<SA[4]<<endl;
+		cout<<"Phi_4 : "<<SA[4]<<endl;
 	}
 
 
 	if(polyDeg>=4){
 		SA[5]= PolyDiv(Check, Phi5, polyDeg, 4); //4
-		//cout<<" Phi_5 : "<<SA[5]<<endl;
+		cout<<" Phi_5 : "<<SA[5]<<endl;
 		SA[8]=PolyDiv(Check, Phi8, polyDeg, 4);
-		//cout<<" Phi_8 : "<<SA[8]<<endl;
+		cout<<" Phi_8 : "<<SA[8]<<endl;
 	}
 
 	if(polyDeg>=6){
 		SA[7]= PolyDiv(Check, Phi7, polyDeg, 6); //6
-		//cout<<" Phi_7 : "<<SA[7]<<endl;
+		cout<<" Phi_7 : "<<SA[7]<<endl;
 		SA[9]=PolyDiv(Check, Phi9, polyDeg, 6);
-		//cout<<" Phi_9 : "<<SA[9]<<endl;
+		cout<<" Phi_9 : "<<SA[9]<<endl;
 	}
 
 	if(polyDeg>=10){
 		SA[11]= PolyDiv(Check, Phi11, polyDeg, 10); //10
-		//cout<<" Phi_11 : "<<SA[11]<<endl;
+		cout<<" Phi_11 : "<<SA[11]<<endl;
 	}
 
 	if(polyDeg>=12){
 		SA[13]= PolyDiv(Check, Phi13, polyDeg, 12); //12
-		//cout<<" Phi_13 : "<<SA[13]<<endl;
+		cout<<" Phi_13 : "<<SA[13]<<endl;
 	}
 
 	if(polyDeg>=16){
 		SA[17]= PolyDiv(Check, Phi17, polyDeg, 16); //16
-		//cout<<" Phi_17 : "<<SA[17]<<endl;
+		cout<<" Phi_17 : "<<SA[17]<<endl;
+		SA[32]= PolyDiv(Check, Phi32, polyDeg, 16);
+		cout<<" Phi_32 : "<<SA[32]<<endl;
+	}
+
+	if(polyDeg>=18){
+		SA[19]= PolyDiv(Check, Phi19, polyDeg, 18); //18
+		cout<<" Phi_19 : "<<SA[19]<<endl;
+		SA[27]= PolyDiv(Check, Phi27, polyDeg, 18);
+		cout<<" Phi_27 : "<<SA[27]<<endl;
+	}
+
+	if(polyDeg>=20){
+		SA[25]= PolyDiv(Check, Phi25, polyDeg, 20); //20
+		cout<<" Phi_25 : "<<SA[25]<<endl;
 	}
 
 	//Starting to test T1
@@ -430,10 +524,28 @@ bool BigPi(bool SA[], int a){
 	if(SA[13])
 	BigPiValue*=13;
 
+	if(SA[16])
+	BigPiValue*=2;
+
 	if(SA[17])
 	BigPiValue*=17;
 
-//cout<<"Big Pi Value: "<<BigPiValue<<endl;
+	if(SA[19])
+	BigPiValue*=19;
+
+	if(SA[25])
+	BigPiValue*=5;
+
+	if(SA[27])
+	BigPiValue*=3;
+
+	if(SA[32])
+	BigPiValue*=2;
+
+	
+
+cout<<"Big Pi Value: "<<BigPiValue<<endl;
+cout<<"A "<<a<<endl;
 if(BigPiValue==a)
 	return true;
 
@@ -468,7 +580,7 @@ bool T2_then(bool SA[], int Check[], int a){
 
 	int BigS=1;
 //finds the product of all s \in S_A
-	for(int i=1; i<30; i++){
+	for(int i=1; i<50; i++){
 		if(SA[i])
 		BigS*=i;
 	}
