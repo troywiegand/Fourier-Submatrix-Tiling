@@ -92,7 +92,7 @@ int main(){
 	 
 	 //Reading .txt file shenanigans 
 	 ifstream File;
-	 File.open("R18a9.txt");
+	 File.open("data/R18a9.txt");
 	  while(!File.eof())
     {
         File >> arr[n];
@@ -155,7 +155,7 @@ string TileCheck(string Row, int a){
 
 
 
-response=CM_Check(a, checkIt);
+response=CM_Check(a, checkIt)+"\n";
 
 cout<<response<<endl;
 if(response.compare("Needs to be checked.")==0 && NewmanAble(a)){
@@ -412,57 +412,72 @@ string CM_Check(int a, int Check[]){
 //This series of if statements will generate S_A up to 17
 	if(polyDeg>=1){
 		SA[2]=PolyDiv(Check, Phi2, polyDeg, 1);
-		cout<<" Phi_2 : "<<SA[2]<<endl;
+		if(SA[2])
+			cout<<" Phi_2 : "<<SA[2]<<endl;
 	}
 
 	if(polyDeg>=2){
 		SA[3]=PolyDiv(Check, Phi3, polyDeg, 2);
-		cout<<"Phi_3 : "<<SA[3]<<endl;
+		if(SA[3])
+			cout<<"Phi_3 : "<<SA[3]<<endl;
+
 		SA[4]=PolyDiv(Check, Phi4, polyDeg, 2);
-		cout<<"Phi_4 : "<<SA[4]<<endl;
+		if(SA[4])
+			cout<<"Phi_4 : "<<SA[4]<<endl;
 	}
 
 
 	if(polyDeg>=4){
 		SA[5]= PolyDiv(Check, Phi5, polyDeg, 4); //4
-		cout<<" Phi_5 : "<<SA[5]<<endl;
+		if(SA[5])
+			cout<<" Phi_5 : "<<SA[5]<<endl;
 		SA[8]=PolyDiv(Check, Phi8, polyDeg, 4);
-		cout<<" Phi_8 : "<<SA[8]<<endl;
+		if(SA[8])
+			cout<<" Phi_8 : "<<SA[8]<<endl;
 	}
 
 	if(polyDeg>=6){
 		SA[7]= PolyDiv(Check, Phi7, polyDeg, 6); //6
-		cout<<" Phi_7 : "<<SA[7]<<endl;
+		if(SA[7])
+			cout<<" Phi_7 : "<<SA[7]<<endl;
 		SA[9]=PolyDiv(Check, Phi9, polyDeg, 6);
-		cout<<" Phi_9 : "<<SA[9]<<endl;
+		if(SA[9])
+			cout<<" Phi_9 : "<<SA[9]<<endl;
 	}
 
 	if(polyDeg>=10){
 		SA[11]= PolyDiv(Check, Phi11, polyDeg, 10); //10
-		cout<<" Phi_11 : "<<SA[11]<<endl;
+		if(SA[11])
+			cout<<" Phi_11 : "<<SA[11]<<endl;
 	}
 
 	if(polyDeg>=12){
 		SA[13]= PolyDiv(Check, Phi13, polyDeg, 12); //12
-		cout<<" Phi_13 : "<<SA[13]<<endl;
+		if(SA[13])
+			cout<<" Phi_13 : "<<SA[13]<<endl;
 	}
 
 	if(polyDeg>=16){
 		SA[17]= PolyDiv(Check, Phi17, polyDeg, 16); //16
+		if(SA[17])
 		cout<<" Phi_17 : "<<SA[17]<<endl;
 		SA[32]= PolyDiv(Check, Phi32, polyDeg, 16);
+		if(SA[32])
 		cout<<" Phi_32 : "<<SA[32]<<endl;
 	}
 
 	if(polyDeg>=18){
 		SA[19]= PolyDiv(Check, Phi19, polyDeg, 18); //18
+		if(SA[19])
 		cout<<" Phi_19 : "<<SA[19]<<endl;
 		SA[27]= PolyDiv(Check, Phi27, polyDeg, 18);
+		if(SA[27])
 		cout<<" Phi_27 : "<<SA[27]<<endl;
 	}
 
 	if(polyDeg>=20){
 		SA[25]= PolyDiv(Check, Phi25, polyDeg, 20); //20
+		if(SA[25])
 		cout<<" Phi_25 : "<<SA[25]<<endl;
 	}
 
@@ -553,8 +568,8 @@ bool BigPi(bool SA[], int a){
 
 	
 
-cout<<"Big Pi Value: "<<BigPiValue<<endl;
-cout<<"A "<<a<<endl;
+//cout<<"Big Pi Value: "<<BigPiValue<<endl;
+//cout<<"A "<<a<<endl;
 if(BigPiValue==a)
 	return true;
 
