@@ -5,6 +5,7 @@
 #include <sstream>
 #include <cmath>
 #include <math.h>
+#include <numeric>
 
 //NEED TO ADD EITHER FORMULA OR HARD WIRE MORE
 using namespace std;	
@@ -21,6 +22,9 @@ bool T2_if(bool SA[]);
 bool T2_then(bool SA[], int Check[], int a);
 double evalPolyDiv(int N[],int Ndeg, int D[], int Ddeg, int point);
 int horner(int n, int Polynomial[], int point);
+string TilingSet(bool SA[], int Check[] );
+int lcm(int a, int b);
+
 
 //Declaring my prime power Phi's globally 
 //so I don't have to reallocate multiple times
@@ -33,6 +37,7 @@ int horner(int n, int Polynomial[], int point);
 	int Phi9  []={1,0,0,1,0,0,1};
 	int Phi11 []={1,1,1,1,1,1,1,1,1,1,1};
 	int Phi13 []={1,1,1,1,1,1,1,1,1,1,1,1,1};
+    int Phi16 []={1,0,0,0,0,0,0,0,1};
     int Phi17 []={1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
 /////////////////////////////////////////////////////
 
@@ -63,14 +68,14 @@ T StringToNumber ( const string &Text, T defValue = T() )
 }	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 int main(){
-	 int R=18; //Size of original Fourier Matrix RxR
-	 int a=6; //Size of created Hadamard submatrix
+	 int R=16; //Size of original Fourier Matrix RxR
+	 int a=4; //Size of created Hadamard submatrix
 	 int n = 0; //Number of numbers in the .txt file
      int arr[100000]; //Large array to hold numbers
 	 
 	 //Reading .txt file shenanigans 
 	 ifstream File;
-	 File.open("R18a6.txt");
+	 File.open("R16a4.txt");
 	  while(!File.eof())
     {
         File >> arr[n];
@@ -352,6 +357,11 @@ string CM_Check(int a, int Check[]){
 		//cout<<" Phi_9 : "<<SA[9]<<endl;
 	}
 
+    if(polyDeg>=8){
+        SA[16]=PolyDiv(Check, Phi16, polyDeg, 8);
+       // cout<<"Phi_16 : "<<SA[16]<<endl;
+    }
+
 	if(polyDeg>=10){
 		SA[11]= PolyDiv(Check, Phi11, polyDeg, 10); //10
 		//cout<<" Phi_11 : "<<SA[11]<<endl;
@@ -394,12 +404,46 @@ string CM_Check(int a, int Check[]){
 	}
 //If both conditions are met we return CM Met for the set
 if(T1&&T2){
-return "CM Met";
+return TilingSet(SA,Check );
 
 }
 
 //Otherwise return needs to be checked
 return "Needs to be checked.";
+}
+
+string TilingSet(bool SA[], int Check[]){
+
+string Set = "CM Met with a period N = ";
+
+int N=1;
+for(int i=0; i<=30; i++){
+	if(SA[i])
+		N=lcm(N,i);
+}
+
+Set = Set + to_string(N);
+
+return Set;
+}
+
+int lcm(int a, int b){
+int m,n;
+
+    m=a;
+    n=b;
+
+    while(m!=n)
+    {
+	if(m < n) {
+		m=m+a;
+	}
+	else {
+		n=n+b;
+	    }
+    }
+
+	return m;
 }
 
 bool BigPi(bool SA[], int a){
@@ -433,6 +477,9 @@ bool BigPi(bool SA[], int a){
 
 	if(SA[13])
 	BigPiValue*=13;
+    
+    if(SA[16])
+    BigPiValue*=2;
 
 	if(SA[17])
 	BigPiValue*=17;
@@ -450,13 +497,13 @@ bool T2_if(bool SA[]){
 //	cout<<"if is running"<<endl;
 //will make work for big numbers later
 
-	if(SA[2]&&SA[4])
+	if(SA[2]&&SA[4] || SA[2]&&SA[16])
 		return false;
 
-	if(SA[2]&&SA[8])
+	if(SA[2]&&SA[8] || SA[8]&&SA[16])
 		return false;
 
-	if(SA[8]&&SA[4])
+	if(SA[8]&&SA[4] || SA[4]&&SA[16])
 		return false;
 
 	if(SA[3]&&SA[9])
@@ -478,7 +525,7 @@ bool T2_then(bool SA[], int Check[], int a){
 	}
 
 //Catches the cases when S_A is just one element
-if(BigS==2 || BigS==3 || BigS==4 || BigS==5 || BigS==7 || BigS==8 || BigS== 9 || BigS==11 || BigS==13 || BigS==17)
+if(BigS==2 || BigS==3 || BigS==4 || BigS==5 || BigS==7 || BigS==8 || BigS== 9 || BigS==11 || BigS==13 || BigS==17 ||BigS==16)
 	return true; 
 
 //The rest
