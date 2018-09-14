@@ -40,6 +40,36 @@ void Print(char c, int d, double* A) {
 	cout << "Degree of " << c << ": " << d << endl << endl;
 }
 
+int gcd(int a, int b) 
+{ 
+    if (b == 0) 
+        return a; 
+    return gcd(b, a % b); 
+} 
+
+int findlcm(bool arr[], int n) 
+{ 
+	int ans=0;
+    // Initialize result 
+	for(int q=1; q<n; q++){
+		if(arr[q]){
+		ans = arr[q]; 
+		q=n+2;
+		}
+	}
+    
+  
+    // ans contains LCM of arr[0], ..arr[i] 
+    // after i'th iteration, 
+    for (int i = 1; i < n; i++)
+		if(arr[i]){ 
+        ans = (((i * ans)) / 
+                (gcd(i, ans))); 
+		}
+  
+    return ans; 
+} 
+
 //Declaring my prime power Phi's globally 
 //so I don't have to reallocate multiple times
 	int Phi2  []={1,1};
@@ -508,6 +538,8 @@ string CM_Check(int a, int Check[]){
 	}
 //If both conditions are met we return CM Met for the set
 if(T1&&T2){
+	int N=findlcm(SA,30); 
+	cout<<" PERIOD OF "<<N<<endl;
 return "CM Met";
 
 }
