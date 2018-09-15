@@ -79,6 +79,7 @@ int findlcm(bool arr[], int n)
 	int Phi8  []={1,0,0,0,1};
 	int Phi7  []={1,1,1,1,1,1,1};
 	int Phi9  []={1,0,0,1,0,0,1};
+	int Phi16 []={1,0,0,0,0,0,0,0,1};
 	int Phi11 []={1,1,1,1,1,1,1,1,1,1,1};
 	int Phi13 []={1,1,1,1,1,1,1,1,1,1,1,1,1};
     int Phi17 []={1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
@@ -115,14 +116,14 @@ T StringToNumber ( const string &Text, T defValue = T() )
 }	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 int main(){
-	 int R=18; //Size of original Fourier Matrix RxR
-	 int a=9; //Size of created Hadamard submatrix
+	 int R=12; //Size of original Fourier Matrix RxR
+	 int a=6; //Size of created Hadamard submatrix
 	 int n = 0; //Number of numbers in the .txt file
-     int arr[100000]; //Large array to hold numbers
+     int arr[1000000]; //Large array to hold numbers
 	 
 	 //Reading .txt file shenanigans 
 	 ifstream File;
-	 File.open("data/R18a9.txt");
+	 File.open("data/R12a6.txt");
 	  while(!File.eof())
     {
         File >> arr[n];
@@ -415,6 +416,7 @@ int PolyDiv(int Check[], int BigPhi[], int a, int b) {
 
 	//Print( 'q', dq, q );
 	//Print( 'r', dr, r );
+
 	bool answer=true;
 
 	for(int i=0; i<=dr; i++){
@@ -473,6 +475,12 @@ string CM_Check(int a, int Check[]){
 		SA[9]=PolyDiv(Check, Phi9, polyDeg, 6);
 		if(SA[9])
 			cout<<" Phi_9 : "<<SA[9]<<endl;
+	}
+
+	if(polyDeg>=8){
+		SA[16]=PolyDiv(Check, Phi16, polyDeg, 8); //6
+			if(SA[16])
+			cout<<" Phi_16 : "<<SA[16]<<endl;
 	}
 
 	if(polyDeg>=10){
@@ -621,6 +629,15 @@ bool T2_if(bool SA[]){
 		return false;
 
 	if(SA[8]&&SA[4])
+		return false;
+
+	if(SA[16]&&SA[2])
+		return false;
+
+	if(SA[16]&&SA[4])
+		return false;
+
+	if(SA[16]&&SA[8])
 		return false;
 
 	if(SA[3]&&SA[9])
