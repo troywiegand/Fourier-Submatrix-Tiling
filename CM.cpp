@@ -17,6 +17,7 @@
 #include <sstream>
 #include <cmath>
 #include <math.h>
+#include <vector>
 
 using namespace std;	
 
@@ -30,6 +31,8 @@ string CM_Check(int a, int Check[]);
 bool BigPi(bool SA[], int a);
 bool T2_if(bool SA[]);
 bool T2_then(bool SA[], int Check[], int a);
+string findB(bool SA[], int N);
+bool isPrimePower(int n);
 
 
 void Print(char c, int d, double* A) {
@@ -116,14 +119,14 @@ T StringToNumber ( const string &Text, T defValue = T() )
 }	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 int main(){
-	 int R=12; //Size of original Fourier Matrix RxR
-	 int a=6; //Size of created Hadamard submatrix
+	 int R=4; //Size of original Fourier Matrix RxR
+	 int a=2; //Size of created Hadamard submatrix
 	 int n = 0; //Number of numbers in the .txt file
      int arr[1000000]; //Large array to hold numbers
 	 
 	 //Reading .txt file shenanigans 
 	 ifstream File;
-	 File.open("data/R12a6.txt");
+	 File.open("data/R04a2.txt");
 	  while(!File.eof())
     {
         File >> arr[n];
@@ -179,7 +182,7 @@ string TileCheck(string Row, int a){
     token = Row.substr(0, pos);
 	checkIt[k++]= (int) StringToNumber ( token, 0.0 );
     Row.erase(0, pos + delimiter.length());
-}
+	}
 
 //We are testing this first as opposed to Newman for testing CM
 //I'll flip this around later to increase performace
@@ -547,7 +550,8 @@ string CM_Check(int a, int Check[]){
 //If both conditions are met we return CM Met for the set
 if(T1&&T2){
 	int N=findlcm(SA,30); 
-	cout<<" PERIOD OF "<<N<<endl;
+	string B=findB(SA,N);
+	cout<<B<<endl;
 return "CM Met";
 
 }
@@ -721,8 +725,72 @@ else if(BigS==27){
 }
 
 
+return false;
+}
+
+string findB(bool SA[], int N){
+
+	
+	vector<int> SAnumbers;
+	int q=0;
+
+	for(int i=0; i<10; i++){
+		if(SA[i])
+			SAnumbers.push_back(i);
+	}
+
+	int Nfactors[N+1];
+
+	for(int i=1; i<N+1; i++){
+		if(N%i==0){
+			Nfactors[i]=i;
+		}
+		else Nfactors[i]=0;
+	}
+
+	vector<int> SB;
+
+	for(int i=1; i<N+1; i++){
+		if(isPrimePower(Nfactors[i])){
+			for(int j=0; j<q; j++){
+				if(Nfactors[i]!=SAnumbers[j])
+					SB.push_back(Nfactors[i]);
+			}
+		}
+	}
+
+string answer="UGH";
+
+if(SB.size()==0){
+string period = to_string(N);
+answer= "  T="+period+"Z";
+}
+
+
+
+return answer;
+}
+
+bool isPrimePower(int n){
+
+	if(n==0 || n==1)
+		return false;
+
+	if(n==2 || n==4 || n==8 || n==16 || n==32)
+		return true;
+
+	if(n==3 || n==9 || n==27)
+		return true;
+
+	if(n==5 || n== 25)
+		return true;
+
+	if(n==7 || n==11 || n==13 ||n==17 || n==19 || n==23 || n==29)
+		return true;
+	
+	return false;
+
+}
 
 	
 
-return false;
-}
