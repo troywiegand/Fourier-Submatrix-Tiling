@@ -152,14 +152,14 @@ T StringToNumber ( const string &Text, T defValue = T() )
 }	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 int main(){
-	 int R=4; //Size of original Fourier Matrix RxR
-	 int a=2; //Size of created Hadamard submatrix
+	 int R=18; //Size of original Fourier Matrix RxR
+	 int a=6; //Size of created Hadamard submatrix
 	 int n = 0; //Number of numbers in the .txt file
      int arr[1000000]; //Large array to hold numbers
 	 
 	 //Reading .txt file shenanigans 
 	 ifstream File;
-	 File.open("data/R04a2.txt");
+	 File.open("data/R18a6.txt");
 	  while(!File.eof())
     {
         File >> arr[n];
@@ -765,9 +765,8 @@ string findB(bool SA[], int N){
 
 	
 	vector<int> SAnumbers;
-	int q=0;
 
-	for(int i=0; i<10; i++){
+	for(int i=0; i<25; i++){
 		if(SA[i])
 			SAnumbers.push_back(i);
 	}
@@ -781,14 +780,21 @@ string findB(bool SA[], int N){
 		else Nfactors[i]=0;
 	}
 
+	//for(int i=1; i<N+1; i++)
+	//	cout<<i<<":   "<<Nfactors[i];
+
 	vector<int> SB;
 
 	for(int i=1; i<N+1; i++){
 		if(isPrimePower(Nfactors[i])){
-			for(int j=0; j<q; j++){
-				if(Nfactors[i]!=SAnumbers[j])
-					SB.push_back(Nfactors[i]);
+			int whatever=0;
+			for(int j=0; j<SAnumbers.size(); j++){
+				if(Nfactors!=0 && Nfactors[i]!=SAnumbers.at(j)){
+					whatever++;
+				}
 			}
+			if(whatever==SAnumbers.size())
+			SB.push_back(Nfactors[i]);
 		}
 	}
 
