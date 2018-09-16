@@ -833,13 +833,144 @@ if(max==1){
 
 } else{
 
-	//GobbleGuuk
+	if(SB.back()==2){
+		int Comp[2*max-1];
+
+		for(int i=0; i<2*max-1; i++){
+			Comp[i]=0;
+		}
+
+		for(int i=0; i<2; i++){
+			Comp[max*i]=Phi2[i];
+		}
+
+		B=PolyMultiply(Comp,B,2*max-1,B.size());
+	} else if(SB.back()==3){
+		int Comp[3*max-1];
+
+		for(int i=0; i<3*max-1; i++){
+			Comp[i]=0;
+		}
+
+		for(int i=0; i<3; i++){
+			Comp[max*i]=Phi3[i];
+		}
+
+		B=PolyMultiply(Comp,B,3*max-1,B.size());
+	} else if(SB.back()==4){
+		int Comp[3*max-1];
+
+		for(int i=0; i<3*max-1; i++){
+			Comp[i]=0;
+		}
+
+		for(int i=0; i<3; i++){
+			Comp[max*i]=Phi4[i];
+		}
+
+		B=PolyMultiply(Comp,B,3*max-1,B.size());
+	} else if(SB.back()==5){
+		int Comp[5*max-1];
+
+		for(int i=0; i<5*max-1; i++){
+			Comp[i]=0;
+		}
+
+		for(int i=0; i<5; i++){
+			Comp[max*i]=Phi5[i];
+		} 
+
+		B=PolyMultiply(Comp,B,5*max-1,B.size());
+	} else if(SB.back()==7){
+		int Comp[7*max-1];
+
+		for(int i=0; i<7*max-1; i++){
+			Comp[i]=0;
+		}
+
+		for(int i=0; i<7; i++){
+			Comp[max*i]=Phi7[i];
+		}
+
+		B=PolyMultiply(Comp,B,7*max-1,B.size());
+	} else if(SB.back()==8){
+		int Comp[5*max-1];
+
+		for(int i=0; i<5*max-1; i++){
+			Comp[i]=0;
+		}
+
+		for(int i=0; i<5; i++){
+			Comp[max*i]=Phi8[i];
+		}
+
+		B=PolyMultiply(Comp,B,5*max-1,B.size());
+	} else if(SB.back()==9){
+		int Comp[7*max-1];
+
+		for(int i=0; i<7*max-1; i++){
+			Comp[i]=0;
+		}
+
+		for(int i=0; i<7; i++){
+			Comp[max*i]=Phi9[i];
+		}
+
+		B=PolyMultiply(Comp,B,7*max-1,B.size());
+	}else if(SB.back()==11){
+		int Comp[11*max-1];
+
+		for(int i=0; i<11*max-1; i++){
+			Comp[i]=0;
+		}
+
+		for(int i=0; i<11; i++){
+			Comp[max*i]=Phi11[i];
+		}
+
+		B=PolyMultiply(Comp,B,11*max-1,B.size());
+	} else if(SB.back()==13){
+		int Comp[13*max-1];
+
+		for(int i=0; i<13*max-1; i++){
+			Comp[i]=0;
+		}
+
+		for(int i=0; i<13; i++){
+			Comp[max*i]=Phi13[i];
+		}
+
+		B=PolyMultiply(Comp,B,13*max-1,B.size());
+	} else if(SB.back()==16){
+		int Comp[9*max-1];
+
+		for(int i=0; i<9*max-1; i++){
+			Comp[i]=0;
+		}
+
+		for(int i=0; i<9; i++){
+			Comp[max*i]=Phi16[i];
+		}
+
+		B=PolyMultiply(Comp,B,9*max-1,B.size());
+	}
+
 }
 
 
 if(SB.size()==1){
-
-	//adjoin Set B to answer string
+	int abc=0;
+	answer=answer+" + {";
+	for(int k=0; k<B.size(); k++){
+		if(abc!=0 && B.at(k)!=0){
+			answer=answer+" , "+to_string(k);
+		}
+		if(abc==0 && B.at(k)!=0){
+			answer=answer+to_string(k);
+			abc++;
+		}
+	}
+		answer=answer+"}";
 }
 
 SB.pop_back();
