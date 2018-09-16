@@ -50,6 +50,39 @@ int gcd(int a, int b)
     return gcd(b, a % b); 
 } 
 
+vector<int> PolyMultiply(int A[], vector<int> B, int m, int n) 
+{ 
+   int *prod = new int[m+n-1]; 
+  
+   // Initialize the porduct polynomial 
+   for (int i = 0; i<m+n-1; i++) 
+     prod[i] = 0; 
+  
+int Barray[n];
+for(int q=n-1; q> -1; q--){
+Barray[q]=B.back();
+B.pop_back();
+}
+   // Multiply two polynomials term by term 
+  
+   // Take ever term of first polynomial 
+   for (int i=0; i<m; i++) 
+   { 
+     // Multiply the current term of first polynomial 
+     // with every term of second polynomial. 
+     for (int j=0; j<n; j++) 
+         prod[i+j] += A[i]*Barray[j]; 
+   } 
+
+   vector<int> answer;
+
+   for(int h=0;h<m+n-1;h++){
+	   answer.push_back(prod[h]);
+   }
+  
+   return answer; 
+} 
+
 int findlcm(bool arr[], int n) 
 { 
 	int ans=0;
@@ -759,15 +792,61 @@ string findB(bool SA[], int N){
 		}
 	}
 
-string answer="UGH";
 
-if(SB.size()==0){
 string period = to_string(N);
-answer= "  T="+period+"Z";
+string answer= "  T="+period+"Z";
+vector<int> B;
+B.push_back(1);
+///////////////////////////
+
+for(int j=SB.size(); j>0; j--){
+
+int max=1;
+	//Need to look at SB.bacK()
+
+for(int i=1; i<N+1; i++){
+if(Nfactors[i]!=0 && gcd(SB.back(),i)==1 && i>max)
+	max=i;
+}
+
+if(max==1){
+	if(SB.back()==2)
+		B=PolyMultiply(Phi2,B,2,B.size());
+	else if(SB.back()==3)
+		B=PolyMultiply(Phi3,B,3,B.size());
+	else if(SB.back()==4)
+		B=PolyMultiply(Phi4,B,3,B.size());
+	else if(SB.back()==5)
+		B=PolyMultiply(Phi5,B,5,B.size());	
+	else if(SB.back()==7)
+		B=PolyMultiply(Phi7,B,7,B.size());
+	else if(SB.back()==8)
+		B=PolyMultiply(Phi8,B,5,B.size());
+	else if(SB.back()==9)
+		B=PolyMultiply(Phi9,B,7,B.size());
+	else if(SB.back()==11)
+		B=PolyMultiply(Phi11,B,11,B.size());
+	else if(SB.back()==13)
+		B=PolyMultiply(Phi13,B,13,B.size());
+	else if(SB.back()==16)
+		B=PolyMultiply(Phi16,B,9,B.size());
+
+} else{
+
+	//GobbleGuuk
 }
 
 
+if(SB.size()==1){
 
+	//adjoin Set B to answer string
+}
+
+SB.pop_back();
+}
+
+
+//////////////////////////
 return answer;
 }
 
