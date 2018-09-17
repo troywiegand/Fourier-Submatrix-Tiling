@@ -152,14 +152,14 @@ T StringToNumber ( const string &Text, T defValue = T() )
 }	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 int main(){
-	 int R=14; //Size of original Fourier Matrix RxR
-	 int a=7; //Size of created Hadamard submatrix
+	 int R=20; //Size of original Fourier Matrix RxR
+	 int a=5; //Size of created Hadamard submatrix
 	 int n = 0; //Number of numbers in the .txt file
      int arr[1000000]; //Large array to hold numbers
 	 
 	 //Reading .txt file shenanigans 
 	 ifstream File;
-	 File.open("data/R14a7.txt");
+	 File.open("data/R20a5.txt");
 	  while(!File.eof())
     {
         File >> arr[n];
@@ -176,28 +176,41 @@ int main(){
 	}
 	
 	
-	int firsttime = 1;
 	
+	ofstream FileOut;
+	FileOut.open("data/R20a5tilesets.txt");
+	int firsttime = 1;
 	//Will Check all of the columns for sameness
 	//If they are the same they will cout the line and run it through tiling checks.
 	for(int i=3; i<((n/a)-3); i+=3) {
 			if(checkCol[i-3].compare(checkCol[i])==0 && firsttime>0) {
 				cout<<checkCol[i-3]<<" has these rows that are the same: \n \n";
+				FileOut<<checkCol[i-3]<<" has these rows that are the same: \n \n";
 				
 				cout<<checkCol[i-2]<<TileCheck(checkCol[i-2],a)<<"\n";
+				FileOut<<checkCol[i-2]<<TileCheck(checkCol[i-2],a)<<"\n";
 				firsttime--;
-				if(checkCol[i].compare(checkCol[i+3])!=0)
+				if(checkCol[i].compare(checkCol[i+3])!=0){
 					cout<<checkCol[i+1]<<TileCheck(checkCol[i+1],a)<<"\n  \n  \n";
+					FileOut<<checkCol[i+1]<<TileCheck(checkCol[i+1],a)<<"\n  \n  \n";
+				}
+					
 			}
 			else if(checkCol[i-3].compare(checkCol[i])==0){
 				cout<<checkCol[i-2]<<TileCheck(checkCol[i-2],a)<<"\n";
-				if(checkCol[i].compare(checkCol[i+3])!=0)
+				FileOut<<checkCol[i-2]<<TileCheck(checkCol[i-2],a)<<"\n";
+				if(checkCol[i].compare(checkCol[i+3])!=0){
 					cout<<checkCol[i+1]<<TileCheck(checkCol[i+1],a)<<"\n  \n \n";
+					FileOut<<checkCol[i+1]<<TileCheck(checkCol[i+1],a)<<"\n  \n \n";
+				}
+					
 			}
 			else {
 				firsttime=1;
 			}
-	}	
+	}
+
+	FileOut.close();	
 	return 0;
 }
 
@@ -586,7 +599,7 @@ if(T1&&T2){
 	int N=findlcm(SA,30); 
 	string B=findB(SA,N);
 	cout<<B<<endl;
-return "CM Met";
+return "CM Met"+B;
 
 }
 
@@ -982,7 +995,7 @@ if(SB.size()==1){
 
 SB.pop_back();
 }
-
+ofstream FileOut;
 
 //////////////////////////
 return answer;
