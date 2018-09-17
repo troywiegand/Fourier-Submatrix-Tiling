@@ -83,7 +83,7 @@ int main() {
 			Print( 'q', dq, q );
 
 // d equals d * q[dN-dD]
-			for( int i = 0 ; i < dq + 1 ; i++ ) {
+			for( int i = 0 ; i < dd +1 ; i++ ) {
 				d[i] = d[i] * q[dN-dD];
 			}
 
@@ -94,7 +94,7 @@ int main() {
 				N[i] = N[i] - d[i];
 			}
 			dN--;
-			for(int j=dN; j>-1; j--){
+			for(int j=dN; j>0; j--){
 				if(N[j]!=0){
 					dN=j;
 					j=-1;

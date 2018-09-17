@@ -152,14 +152,14 @@ T StringToNumber ( const string &Text, T defValue = T() )
 }	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 int main(){
-	 int R=18; //Size of original Fourier Matrix RxR
-	 int a=6; //Size of created Hadamard submatrix
+	 int R=14; //Size of original Fourier Matrix RxR
+	 int a=7; //Size of created Hadamard submatrix
 	 int n = 0; //Number of numbers in the .txt file
      int arr[1000000]; //Large array to hold numbers
 	 
 	 //Reading .txt file shenanigans 
 	 ifstream File;
-	 File.open("data/R18a6.txt");
+	 File.open("data/R14a7.txt");
 	  while(!File.eof())
     {
         File >> arr[n];
@@ -416,7 +416,7 @@ int PolyDiv(int Check[], int BigPhi[], int a, int b) {
 			//Print( 'q', dq, q );
 
 // d equals d * q[dN-dD]
-			for( i = 0 ; i < dq + 1 ; i++ ) {
+			for( i = 0 ; i < dd + 1 ; i++ ) {
 				d[i] = d[i] * q[dN-dD];
 			}
 
@@ -450,8 +450,10 @@ int PolyDiv(int Check[], int BigPhi[], int a, int b) {
 	//cout << "=========================" << endl << endl;
 	//cout << "-- Result --" << endl << endl;
 
-	//Print( 'q', dq, q );
-	//Print( 'r', dr, r );
+//Print( 'q', dq, q );
+//	Print( 'r', dr, r );
+
+	
 
 	bool answer=true;
 
@@ -476,7 +478,6 @@ string CM_Check(int a, int Check[]){
 	bool SA[100];
 	for(int i=0;i<50;i++)
 		SA[i]=false;
-	
 //This series of if statements will generate S_A up to 17
 	if(polyDeg>=1){
 		SA[2]=PolyDiv(Check, Phi2, polyDeg, 1);
