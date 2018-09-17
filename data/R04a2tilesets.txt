@@ -1,0 +1,8 @@
+0 2  has these rows that are the same: 
+ 
+0 1 CM Met  T=2Z
+
+0 3 CM Met  T=2Z
+
+  
+  

@@ -1,0 +1,42 @@
+0 3  has these rows that are the same: 
+ 
+0 3 CM Met  T=2Z
+
+0 9 CM Met  T=2Z
+
+0 15 CM Met  T=2Z
+
+  
+ 
+0 9  has these rows that are the same: 
+ 
+0 1 CM Met  T=2Z
+
+0 3 CM Met  T=2Z
+
+0 5 CM Met  T=2Z
+
+0 7 CM Met  T=2Z
+
+0 9 CM Met  T=2Z
+
+0 11 CM Met  T=2Z
+
+0 13 CM Met  T=2Z
+
+0 15 CM Met  T=2Z
+
+0 17 CM Met  T=2Z
+
+  
+ 
+0 15  has these rows that are the same: 
+ 
+0 3 CM Met  T=2Z
+
+0 9 CM Met  T=2Z
+
+0 15 CM Met  T=2Z
+
+  
+ 

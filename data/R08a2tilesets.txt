@@ -1,0 +1,28 @@
+0 2  has these rows that are the same: 
+ 
+0 2 CM Met  T=4Z + {0 , 1}
+
+0 6 CM Met  T=4Z + {0 , 1}
+
+  
+  
+0 4  has these rows that are the same: 
+ 
+0 1 CM Met  T=2Z
+
+0 3 CM Met  T=2Z
+
+0 5 CM Met  T=2Z
+
+0 7 CM Met  T=2Z
+
+  
+ 
+0 6  has these rows that are the same: 
+ 
+0 2 CM Met  T=4Z + {0 , 1}
+
+0 6 CM Met  T=4Z + {0 , 1}
+
+  
+  

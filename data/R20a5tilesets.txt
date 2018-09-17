@@ -1,0 +1,912 @@
+0 2 4 8 16  has these rows that are the same: 
+ 
+0 2 4 6 8 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+  
+ 
+0 4 8 12 16  has these rows that are the same: 
+ 
+0 1 2 3 4 CM Met  T=5Z
+
+0 2 3 4 6 CM Met  T=5Z
+
+0 1 3 4 7 CM Met  T=5Z
+
+0 3 4 6 7 CM Met  T=5Z
+
+0 1 2 4 8 CM Met  T=5Z
+
+0 2 4 6 8 CM Met  T=5Z
+
+0 1 4 7 8 CM Met  T=5Z
+
+0 4 6 7 8 CM Met  T=5Z
+
+0 1 2 3 9 CM Met  T=5Z
+
+0 2 3 6 9 CM Met  T=5Z
+
+0 1 3 7 9 CM Met  T=5Z
+
+0 3 6 7 9 CM Met  T=5Z
+
+0 1 2 8 9 CM Met  T=5Z
+
+0 2 6 8 9 CM Met  T=5Z
+
+0 1 7 8 9 CM Met  T=5Z
+
+0 6 7 8 9 CM Met  T=5Z
+
+0 2 3 4 11 CM Met  T=5Z
+
+0 3 4 7 11 CM Met  T=5Z
+
+0 2 4 8 11 CM Met  T=5Z
+
+0 4 7 8 11 CM Met  T=5Z
+
+0 2 3 9 11 CM Met  T=5Z
+
+0 3 7 9 11 CM Met  T=5Z
+
+0 2 8 9 11 CM Met  T=5Z
+
+0 7 8 9 11 CM Met  T=5Z
+
+0 1 3 4 12 CM Met  T=5Z
+
+0 3 4 6 12 CM Met  T=5Z
+
+0 1 4 8 12 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 1 3 9 12 CM Met  T=5Z
+
+0 3 6 9 12 CM Met  T=5Z
+
+0 1 8 9 12 CM Met  T=5Z
+
+0 6 8 9 12 CM Met  T=5Z
+
+0 3 4 11 12 CM Met  T=5Z
+
+0 4 8 11 12 CM Met  T=5Z
+
+0 3 9 11 12 CM Met  T=5Z
+
+0 8 9 11 12 CM Met  T=5Z
+
+0 1 2 4 13 CM Met  T=5Z
+
+0 2 4 6 13 CM Met  T=5Z
+
+0 1 4 7 13 CM Met  T=5Z
+
+0 4 6 7 13 CM Met  T=5Z
+
+0 1 2 9 13 CM Met  T=5Z
+
+0 2 6 9 13 CM Met  T=5Z
+
+0 1 7 9 13 CM Met  T=5Z
+
+0 6 7 9 13 CM Met  T=5Z
+
+0 2 4 11 13 CM Met  T=5Z
+
+0 4 7 11 13 CM Met  T=5Z
+
+0 2 9 11 13 CM Met  T=5Z
+
+0 7 9 11 13 CM Met  T=5Z
+
+0 1 4 12 13 CM Met  T=5Z
+
+0 4 6 12 13 CM Met  T=5Z
+
+0 1 9 12 13 CM Met  T=5Z
+
+0 6 9 12 13 CM Met  T=5Z
+
+0 4 11 12 13 CM Met  T=5Z
+
+0 9 11 12 13 CM Met  T=5Z
+
+0 1 2 3 14 CM Met  T=5Z
+
+0 2 3 6 14 CM Met  T=5Z
+
+0 1 3 7 14 CM Met  T=5Z
+
+0 3 6 7 14 CM Met  T=5Z
+
+0 1 2 8 14 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 1 7 8 14 CM Met  T=5Z
+
+0 6 7 8 14 CM Met  T=5Z
+
+0 2 3 11 14 CM Met  T=5Z
+
+0 3 7 11 14 CM Met  T=5Z
+
+0 2 8 11 14 CM Met  T=5Z
+
+0 7 8 11 14 CM Met  T=5Z
+
+0 1 3 12 14 CM Met  T=5Z
+
+0 3 6 12 14 CM Met  T=5Z
+
+0 1 8 12 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 3 11 12 14 CM Met  T=5Z
+
+0 8 11 12 14 CM Met  T=5Z
+
+0 1 2 13 14 CM Met  T=5Z
+
+0 2 6 13 14 CM Met  T=5Z
+
+0 1 7 13 14 CM Met  T=5Z
+
+0 6 7 13 14 CM Met  T=5Z
+
+0 2 11 13 14 CM Met  T=5Z
+
+0 7 11 13 14 CM Met  T=5Z
+
+0 1 12 13 14 CM Met  T=5Z
+
+0 6 12 13 14 CM Met  T=5Z
+
+0 11 12 13 14 CM Met  T=5Z
+
+0 2 3 4 16 CM Met  T=5Z
+
+0 3 4 7 16 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 7 8 16 CM Met  T=5Z
+
+0 2 3 9 16 CM Met  T=5Z
+
+0 3 7 9 16 CM Met  T=5Z
+
+0 2 8 9 16 CM Met  T=5Z
+
+0 7 8 9 16 CM Met  T=5Z
+
+0 3 4 12 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 3 9 12 16 CM Met  T=5Z
+
+0 8 9 12 16 CM Met  T=5Z
+
+0 2 4 13 16 CM Met  T=5Z
+
+0 4 7 13 16 CM Met  T=5Z
+
+0 2 9 13 16 CM Met  T=5Z
+
+0 7 9 13 16 CM Met  T=5Z
+
+0 4 12 13 16 CM Met  T=5Z
+
+0 9 12 13 16 CM Met  T=5Z
+
+0 2 3 14 16 CM Met  T=5Z
+
+0 3 7 14 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 7 8 14 16 CM Met  T=5Z
+
+0 3 12 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 13 14 16 CM Met  T=5Z
+
+0 7 13 14 16 CM Met  T=5Z
+
+0 12 13 14 16 CM Met  T=5Z
+
+0 1 3 4 17 CM Met  T=5Z
+
+0 3 4 6 17 CM Met  T=5Z
+
+0 1 4 8 17 CM Met  T=5Z
+
+0 4 6 8 17 CM Met  T=5Z
+
+0 1 3 9 17 CM Met  T=5Z
+
+0 3 6 9 17 CM Met  T=5Z
+
+0 1 8 9 17 CM Met  T=5Z
+
+0 6 8 9 17 CM Met  T=5Z
+
+0 3 4 11 17 CM Met  T=5Z
+
+0 4 8 11 17 CM Met  T=5Z
+
+0 3 9 11 17 CM Met  T=5Z
+
+0 8 9 11 17 CM Met  T=5Z
+
+0 1 4 13 17 CM Met  T=5Z
+
+0 4 6 13 17 CM Met  T=5Z
+
+0 1 9 13 17 CM Met  T=5Z
+
+0 6 9 13 17 CM Met  T=5Z
+
+0 4 11 13 17 CM Met  T=5Z
+
+0 9 11 13 17 CM Met  T=5Z
+
+0 1 3 14 17 CM Met  T=5Z
+
+0 3 6 14 17 CM Met  T=5Z
+
+0 1 8 14 17 CM Met  T=5Z
+
+0 6 8 14 17 CM Met  T=5Z
+
+0 3 11 14 17 CM Met  T=5Z
+
+0 8 11 14 17 CM Met  T=5Z
+
+0 1 13 14 17 CM Met  T=5Z
+
+0 6 13 14 17 CM Met  T=5Z
+
+0 11 13 14 17 CM Met  T=5Z
+
+0 3 4 16 17 CM Met  T=5Z
+
+0 4 8 16 17 CM Met  T=5Z
+
+0 3 9 16 17 CM Met  T=5Z
+
+0 8 9 16 17 CM Met  T=5Z
+
+0 4 13 16 17 CM Met  T=5Z
+
+0 9 13 16 17 CM Met  T=5Z
+
+0 3 14 16 17 CM Met  T=5Z
+
+0 8 14 16 17 CM Met  T=5Z
+
+0 13 14 16 17 CM Met  T=5Z
+
+0 1 2 4 18 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 1 4 7 18 CM Met  T=5Z
+
+0 4 6 7 18 CM Met  T=5Z
+
+0 1 2 9 18 CM Met  T=5Z
+
+0 2 6 9 18 CM Met  T=5Z
+
+0 1 7 9 18 CM Met  T=5Z
+
+0 6 7 9 18 CM Met  T=5Z
+
+0 2 4 11 18 CM Met  T=5Z
+
+0 4 7 11 18 CM Met  T=5Z
+
+0 2 9 11 18 CM Met  T=5Z
+
+0 7 9 11 18 CM Met  T=5Z
+
+0 1 4 12 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 1 9 12 18 CM Met  T=5Z
+
+0 6 9 12 18 CM Met  T=5Z
+
+0 4 11 12 18 CM Met  T=5Z
+
+0 9 11 12 18 CM Met  T=5Z
+
+0 1 2 14 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 1 7 14 18 CM Met  T=5Z
+
+0 6 7 14 18 CM Met  T=5Z
+
+0 2 11 14 18 CM Met  T=5Z
+
+0 7 11 14 18 CM Met  T=5Z
+
+0 1 12 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 11 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 7 16 18 CM Met  T=5Z
+
+0 2 9 16 18 CM Met  T=5Z
+
+0 7 9 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 9 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 7 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+0 1 4 17 18 CM Met  T=5Z
+
+0 4 6 17 18 CM Met  T=5Z
+
+0 1 9 17 18 CM Met  T=5Z
+
+0 6 9 17 18 CM Met  T=5Z
+
+0 4 11 17 18 CM Met  T=5Z
+
+0 9 11 17 18 CM Met  T=5Z
+
+0 1 14 17 18 CM Met  T=5Z
+
+0 6 14 17 18 CM Met  T=5Z
+
+0 11 14 17 18 CM Met  T=5Z
+
+0 4 16 17 18 CM Met  T=5Z
+
+0 9 16 17 18 CM Met  T=5Z
+
+0 14 16 17 18 CM Met  T=5Z
+
+0 1 2 3 19 CM Met  T=5Z
+
+0 2 3 6 19 CM Met  T=5Z
+
+0 1 3 7 19 CM Met  T=5Z
+
+0 3 6 7 19 CM Met  T=5Z
+
+0 1 2 8 19 CM Met  T=5Z
+
+0 2 6 8 19 CM Met  T=5Z
+
+0 1 7 8 19 CM Met  T=5Z
+
+0 6 7 8 19 CM Met  T=5Z
+
+0 2 3 11 19 CM Met  T=5Z
+
+0 3 7 11 19 CM Met  T=5Z
+
+0 2 8 11 19 CM Met  T=5Z
+
+0 7 8 11 19 CM Met  T=5Z
+
+0 1 3 12 19 CM Met  T=5Z
+
+0 3 6 12 19 CM Met  T=5Z
+
+0 1 8 12 19 CM Met  T=5Z
+
+0 6 8 12 19 CM Met  T=5Z
+
+0 3 11 12 19 CM Met  T=5Z
+
+0 8 11 12 19 CM Met  T=5Z
+
+0 1 2 13 19 CM Met  T=5Z
+
+0 2 6 13 19 CM Met  T=5Z
+
+0 1 7 13 19 CM Met  T=5Z
+
+0 6 7 13 19 CM Met  T=5Z
+
+0 2 11 13 19 CM Met  T=5Z
+
+0 7 11 13 19 CM Met  T=5Z
+
+0 1 12 13 19 CM Met  T=5Z
+
+0 6 12 13 19 CM Met  T=5Z
+
+0 11 12 13 19 CM Met  T=5Z
+
+0 2 3 16 19 CM Met  T=5Z
+
+0 3 7 16 19 CM Met  T=5Z
+
+0 2 8 16 19 CM Met  T=5Z
+
+0 7 8 16 19 CM Met  T=5Z
+
+0 3 12 16 19 CM Met  T=5Z
+
+0 8 12 16 19 CM Met  T=5Z
+
+0 2 13 16 19 CM Met  T=5Z
+
+0 7 13 16 19 CM Met  T=5Z
+
+0 12 13 16 19 CM Met  T=5Z
+
+0 1 3 17 19 CM Met  T=5Z
+
+0 3 6 17 19 CM Met  T=5Z
+
+0 1 8 17 19 CM Met  T=5Z
+
+0 6 8 17 19 CM Met  T=5Z
+
+0 3 11 17 19 CM Met  T=5Z
+
+0 8 11 17 19 CM Met  T=5Z
+
+0 1 13 17 19 CM Met  T=5Z
+
+0 6 13 17 19 CM Met  T=5Z
+
+0 11 13 17 19 CM Met  T=5Z
+
+0 3 16 17 19 CM Met  T=5Z
+
+0 8 16 17 19 CM Met  T=5Z
+
+0 13 16 17 19 CM Met  T=5Z
+
+0 1 2 18 19 CM Met  T=5Z
+
+0 2 6 18 19 CM Met  T=5Z
+
+0 1 7 18 19 CM Met  T=5Z
+
+0 6 7 18 19 CM Met  T=5Z
+
+0 2 11 18 19 CM Met  T=5Z
+
+0 7 11 18 19 CM Met  T=5Z
+
+0 1 12 18 19 CM Met  T=5Z
+
+0 6 12 18 19 CM Met  T=5Z
+
+0 11 12 18 19 CM Met  T=5Z
+
+0 2 16 18 19 CM Met  T=5Z
+
+0 7 16 18 19 CM Met  T=5Z
+
+0 12 16 18 19 CM Met  T=5Z
+
+0 1 17 18 19 CM Met  T=5Z
+
+0 6 17 18 19 CM Met  T=5Z
+
+0 11 17 18 19 CM Met  T=5Z
+
+0 16 17 18 19 CM Met  T=5Z
+
+  
+ 
+0 2 8 14 16  has these rows that are the same: 
+ 
+0 2 4 6 8 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+  
+ 
+0 8 12 14 16  has these rows that are the same: 
+ 
+0 2 4 6 8 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+  
+ 
+0 2 4 6 18  has these rows that are the same: 
+ 
+0 2 4 6 8 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+  
+ 
+0 4 6 12 18  has these rows that are the same: 
+ 
+0 2 4 6 8 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+  
+ 
+0 2 6 14 18  has these rows that are the same: 
+ 
+0 2 4 6 8 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+  
+ 
+0 6 12 14 18  has these rows that are the same: 
+ 
+0 2 4 6 8 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+  
+ 
+0 2 4 16 18  has these rows that are the same: 
+ 
+0 2 4 6 8 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+  
+ 
+0 4 12 16 18  has these rows that are the same: 
+ 
+0 2 4 6 8 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+  
+ 
+0 2 14 16 18  has these rows that are the same: 
+ 
+0 2 4 6 8 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+  
+ 
+0 12 14 16 18  has these rows that are the same: 
+ 
+0 2 4 6 8 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 2 4 8 16 CM Met  T=5Z
+
+0 4 8 12 16 CM Met  T=5Z
+
+0 2 8 14 16 CM Met  T=5Z
+
+0 8 12 14 16 CM Met  T=5Z
+
+0 2 4 6 18 CM Met  T=5Z
+
+0 4 6 12 18 CM Met  T=5Z
+
+0 2 6 14 18 CM Met  T=5Z
+
+0 6 12 14 18 CM Met  T=5Z
+
+0 2 4 16 18 CM Met  T=5Z
+
+0 4 12 16 18 CM Met  T=5Z
+
+0 2 14 16 18 CM Met  T=5Z
+
+0 12 14 16 18 CM Met  T=5Z
+
+  
+ 

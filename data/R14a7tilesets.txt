@@ -1,0 +1,132 @@
+0 2 4 6 8 10 12  has these rows that are the same: 
+ 
+0 1 2 3 4 5 6 CM Met  T=7Z
+
+0 2 3 4 5 6 8 CM Met  T=7Z
+
+0 1 3 4 5 6 9 CM Met  T=7Z
+
+0 3 4 5 6 8 9 CM Met  T=7Z
+
+0 1 2 4 5 6 10 CM Met  T=7Z
+
+0 2 4 5 6 8 10 CM Met  T=7Z
+
+0 1 4 5 6 9 10 CM Met  T=7Z
+
+0 4 5 6 8 9 10 CM Met  T=7Z
+
+0 1 2 3 5 6 11 CM Met  T=7Z
+
+0 2 3 5 6 8 11 CM Met  T=7Z
+
+0 1 3 5 6 9 11 CM Met  T=7Z
+
+0 3 5 6 8 9 11 CM Met  T=7Z
+
+0 1 2 5 6 10 11 CM Met  T=7Z
+
+0 2 5 6 8 10 11 CM Met  T=7Z
+
+0 1 5 6 9 10 11 CM Met  T=7Z
+
+0 5 6 8 9 10 11 CM Met  T=7Z
+
+0 1 2 3 4 6 12 CM Met  T=7Z
+
+0 2 3 4 6 8 12 CM Met  T=7Z
+
+0 1 3 4 6 9 12 CM Met  T=7Z
+
+0 3 4 6 8 9 12 CM Met  T=7Z
+
+0 1 2 4 6 10 12 CM Met  T=7Z
+
+0 2 4 6 8 10 12 CM Met  T=7Z
+
+0 1 4 6 9 10 12 CM Met  T=7Z
+
+0 4 6 8 9 10 12 CM Met  T=7Z
+
+0 1 2 3 6 11 12 CM Met  T=7Z
+
+0 2 3 6 8 11 12 CM Met  T=7Z
+
+0 1 3 6 9 11 12 CM Met  T=7Z
+
+0 3 6 8 9 11 12 CM Met  T=7Z
+
+0 1 2 6 10 11 12 CM Met  T=7Z
+
+0 2 6 8 10 11 12 CM Met  T=7Z
+
+0 1 6 9 10 11 12 CM Met  T=7Z
+
+0 6 8 9 10 11 12 CM Met  T=7Z
+
+0 1 2 3 4 5 13 CM Met  T=7Z
+
+0 2 3 4 5 8 13 CM Met  T=7Z
+
+0 1 3 4 5 9 13 CM Met  T=7Z
+
+0 3 4 5 8 9 13 CM Met  T=7Z
+
+0 1 2 4 5 10 13 CM Met  T=7Z
+
+0 2 4 5 8 10 13 CM Met  T=7Z
+
+0 1 4 5 9 10 13 CM Met  T=7Z
+
+0 4 5 8 9 10 13 CM Met  T=7Z
+
+0 1 2 3 5 11 13 CM Met  T=7Z
+
+0 2 3 5 8 11 13 CM Met  T=7Z
+
+0 1 3 5 9 11 13 CM Met  T=7Z
+
+0 3 5 8 9 11 13 CM Met  T=7Z
+
+0 1 2 5 10 11 13 CM Met  T=7Z
+
+0 2 5 8 10 11 13 CM Met  T=7Z
+
+0 1 5 9 10 11 13 CM Met  T=7Z
+
+0 5 8 9 10 11 13 CM Met  T=7Z
+
+0 1 2 3 4 12 13 CM Met  T=7Z
+
+0 2 3 4 8 12 13 CM Met  T=7Z
+
+0 1 3 4 9 12 13 CM Met  T=7Z
+
+0 3 4 8 9 12 13 CM Met  T=7Z
+
+0 1 2 4 10 12 13 CM Met  T=7Z
+
+0 2 4 8 10 12 13 CM Met  T=7Z
+
+0 1 4 9 10 12 13 CM Met  T=7Z
+
+0 4 8 9 10 12 13 CM Met  T=7Z
+
+0 1 2 3 11 12 13 CM Met  T=7Z
+
+0 2 3 8 11 12 13 CM Met  T=7Z
+
+0 1 3 9 11 12 13 CM Met  T=7Z
+
+0 3 8 9 11 12 13 CM Met  T=7Z
+
+0 1 2 10 11 12 13 CM Met  T=7Z
+
+0 2 8 10 11 12 13 CM Met  T=7Z
+
+0 1 9 10 11 12 13 CM Met  T=7Z
+
+0 8 9 10 11 12 13 CM Met  T=7Z
+
+  
+ 

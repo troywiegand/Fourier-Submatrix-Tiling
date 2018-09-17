@@ -1,0 +1,76 @@
+0 2  has these rows that are the same: 
+ 
+0 4 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 12 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+  
+  
+0 4  has these rows that are the same: 
+ 
+0 2 CM Met  T=4Z + {0 , 1}
+
+0 6 CM Met  T=4Z + {0 , 1}
+
+0 10 CM Met  T=4Z + {0 , 1}
+
+0 14 CM Met  T=4Z + {0 , 1}
+
+  
+ 
+0 6  has these rows that are the same: 
+ 
+0 4 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 12 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+  
+  
+0 8  has these rows that are the same: 
+ 
+0 1 CM Met  T=2Z
+
+0 3 CM Met  T=2Z
+
+0 5 CM Met  T=2Z
+
+0 7 CM Met  T=2Z
+
+0 9 CM Met  T=2Z
+
+0 11 CM Met  T=2Z
+
+0 13 CM Met  T=2Z
+
+0 15 CM Met  T=2Z
+
+  
+ 
+0 10  has these rows that are the same: 
+ 
+0 4 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 12 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+  
+  
+0 12  has these rows that are the same: 
+ 
+0 2 CM Met  T=4Z + {0 , 1}
+
+0 6 CM Met  T=4Z + {0 , 1}
+
+0 10 CM Met  T=4Z + {0 , 1}
+
+0 14 CM Met  T=4Z + {0 , 1}
+
+  
+ 
+0 14  has these rows that are the same: 
+ 
+0 4 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 12 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+  
+  
