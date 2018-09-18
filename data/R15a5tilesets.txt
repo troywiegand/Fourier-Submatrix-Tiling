@@ -1,0 +1,166 @@
+0 3 6 9 12  has these rows that are the same: 
+ 
+0 1 2 3 4 CM Met  T=5Z
+
+0 2 3 4 6 CM Met  T=5Z
+
+0 1 3 4 7 CM Met  T=5Z
+
+0 3 4 6 7 CM Met  T=5Z
+
+0 1 2 4 8 CM Met  T=5Z
+
+0 2 4 6 8 CM Met  T=5Z
+
+0 1 4 7 8 CM Met  T=5Z
+
+0 4 6 7 8 CM Met  T=5Z
+
+0 1 2 3 9 CM Met  T=5Z
+
+0 2 3 6 9 CM Met  T=5Z
+
+0 1 3 7 9 CM Met  T=5Z
+
+0 3 6 7 9 CM Met  T=5Z
+
+0 1 2 8 9 CM Met  T=5Z
+
+0 2 6 8 9 CM Met  T=5Z
+
+0 1 7 8 9 CM Met  T=5Z
+
+0 6 7 8 9 CM Met  T=5Z
+
+0 2 3 4 11 CM Met  T=5Z
+
+0 3 4 7 11 CM Met  T=5Z
+
+0 2 4 8 11 CM Met  T=5Z
+
+0 4 7 8 11 CM Met  T=5Z
+
+0 2 3 9 11 CM Met  T=5Z
+
+0 3 7 9 11 CM Met  T=5Z
+
+0 2 8 9 11 CM Met  T=5Z
+
+0 7 8 9 11 CM Met  T=5Z
+
+0 1 3 4 12 CM Met  T=5Z
+
+0 3 4 6 12 CM Met  T=5Z
+
+0 1 4 8 12 CM Met  T=5Z
+
+0 4 6 8 12 CM Met  T=5Z
+
+0 1 3 9 12 CM Met  T=5Z
+
+0 3 6 9 12 CM Met  T=5Z
+
+0 1 8 9 12 CM Met  T=5Z
+
+0 6 8 9 12 CM Met  T=5Z
+
+0 3 4 11 12 CM Met  T=5Z
+
+0 4 8 11 12 CM Met  T=5Z
+
+0 3 9 11 12 CM Met  T=5Z
+
+0 8 9 11 12 CM Met  T=5Z
+
+0 1 2 4 13 CM Met  T=5Z
+
+0 2 4 6 13 CM Met  T=5Z
+
+0 1 4 7 13 CM Met  T=5Z
+
+0 4 6 7 13 CM Met  T=5Z
+
+0 1 2 9 13 CM Met  T=5Z
+
+0 2 6 9 13 CM Met  T=5Z
+
+0 1 7 9 13 CM Met  T=5Z
+
+0 6 7 9 13 CM Met  T=5Z
+
+0 2 4 11 13 CM Met  T=5Z
+
+0 4 7 11 13 CM Met  T=5Z
+
+0 2 9 11 13 CM Met  T=5Z
+
+0 7 9 11 13 CM Met  T=5Z
+
+0 1 4 12 13 CM Met  T=5Z
+
+0 4 6 12 13 CM Met  T=5Z
+
+0 1 9 12 13 CM Met  T=5Z
+
+0 6 9 12 13 CM Met  T=5Z
+
+0 4 11 12 13 CM Met  T=5Z
+
+0 9 11 12 13 CM Met  T=5Z
+
+0 1 2 3 14 CM Met  T=5Z
+
+0 2 3 6 14 CM Met  T=5Z
+
+0 1 3 7 14 CM Met  T=5Z
+
+0 3 6 7 14 CM Met  T=5Z
+
+0 1 2 8 14 CM Met  T=5Z
+
+0 2 6 8 14 CM Met  T=5Z
+
+0 1 7 8 14 CM Met  T=5Z
+
+0 6 7 8 14 CM Met  T=5Z
+
+0 2 3 11 14 CM Met  T=5Z
+
+0 3 7 11 14 CM Met  T=5Z
+
+0 2 8 11 14 CM Met  T=5Z
+
+0 7 8 11 14 CM Met  T=5Z
+
+0 1 3 12 14 CM Met  T=5Z
+
+0 3 6 12 14 CM Met  T=5Z
+
+0 1 8 12 14 CM Met  T=5Z
+
+0 6 8 12 14 CM Met  T=5Z
+
+0 3 11 12 14 CM Met  T=5Z
+
+0 8 11 12 14 CM Met  T=5Z
+
+0 1 2 13 14 CM Met  T=5Z
+
+0 2 6 13 14 CM Met  T=5Z
+
+0 1 7 13 14 CM Met  T=5Z
+
+0 6 7 13 14 CM Met  T=5Z
+
+0 2 11 13 14 CM Met  T=5Z
+
+0 7 11 13 14 CM Met  T=5Z
+
+0 1 12 13 14 CM Met  T=5Z
+
+0 6 12 13 14 CM Met  T=5Z
+
+0 11 12 13 14 CM Met  T=5Z
+
+  
+ 

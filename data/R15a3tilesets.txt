@@ -1,0 +1,54 @@
+0 5 10  has these rows that are the same: 
+ 
+0 1 2 CM Met  T=3Z
+
+0 2 4 CM Met  T=3Z
+
+0 1 5 CM Met  T=3Z
+
+0 4 5 CM Met  T=3Z
+
+0 2 7 CM Met  T=3Z
+
+0 5 7 CM Met  T=3Z
+
+0 1 8 CM Met  T=3Z
+
+0 4 8 CM Met  T=3Z
+
+0 7 8 CM Met  T=3Z
+
+0 2 10 CM Met  T=3Z
+
+0 5 10 CM Met  T=3Z
+
+0 8 10 CM Met  T=3Z
+
+0 1 11 CM Met  T=3Z
+
+0 4 11 CM Met  T=3Z
+
+0 7 11 CM Met  T=3Z
+
+0 10 11 CM Met  T=3Z
+
+0 2 13 CM Met  T=3Z
+
+0 5 13 CM Met  T=3Z
+
+0 8 13 CM Met  T=3Z
+
+0 11 13 CM Met  T=3Z
+
+0 1 14 CM Met  T=3Z
+
+0 4 14 CM Met  T=3Z
+
+0 7 14 CM Met  T=3Z
+
+0 10 14 CM Met  T=3Z
+
+0 13 14 CM Met  T=3Z
+
+  
+ 
