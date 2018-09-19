@@ -152,14 +152,14 @@ T StringToNumber ( const string &Text, T defValue = T() )
 }	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 int main(){
-	 int R=20; //Size of original Fourier Matrix RxR
-	 int a=5; //Size of created Hadamard submatrix
+	 int R=15; //Size of original Fourier Matrix RxR
+	 int a=3; //Size of created Hadamard submatrix
 	 int n = 0; //Number of numbers in the .txt file
      int arr[1000000]; //Large array to hold numbers
 	 
 	 //Reading .txt file shenanigans 
 	 ifstream File;
-	 File.open("data/R20a5.txt");
+	 File.open("data/R15a3.txt");
 	  while(!File.eof())
     {
         File >> arr[n];
@@ -178,7 +178,7 @@ int main(){
 	
 	
 	ofstream FileOut;
-	FileOut.open("data/R20a5tilesets.txt");
+	FileOut.open("data/R15a3tilesets.txt");
 	int firsttime = 1;
 	//Will Check all of the columns for sameness
 	//If they are the same they will cout the line and run it through tiling checks.
@@ -673,29 +673,45 @@ bool T2_if(bool SA[]){
 //	cout<<"if is running"<<endl;
 //will make work for big numbers later
 
-	if(SA[2]&&SA[4])
-		return false;
-
-	if(SA[2]&&SA[8])
-		return false;
-
-	if(SA[8]&&SA[4])
-		return false;
-
-	if(SA[16]&&SA[2])
-		return false;
-
-	if(SA[16]&&SA[4])
-		return false;
-
-	if(SA[16]&&SA[8])
-		return false;
-
-	if(SA[3]&&SA[9])
-		return false;
-
-
+	if(SA[2]&&SA[3])
 		return true;
+
+	if(SA[3]&&SA[8])
+		return true;
+
+	if(SA[3]&&SA[4])
+		return true;
+
+	if(SA[16]&&SA[3])
+		return true;
+
+	if(SA[2]&&SA[9])
+		return true;
+
+	if(SA[9]&&SA[8])
+		return true;
+
+	if(SA[9]&&SA[4])
+		return true;
+
+	if(SA[16]&&SA[9])
+		return true;
+
+	if(SA[2]&&SA[5])
+		return true;
+
+	if(SA[5]&&SA[8])
+		return true;
+
+	if(SA[5]&&SA[4])
+		return true;
+
+	if(SA[16]&&SA[5])
+		return true;
+
+
+
+		return false;
 }
 
 bool T2_then(bool SA[], int Check[], int a){
