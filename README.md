@@ -2,7 +2,6 @@
 
 
 ### Large Scale Things To Do
-- Add MATLAB code to Github Repo
 - Make a C++ Program to Generate Hadamard Submatrices
 - Make a C++ Program that incorperates All Tiling Methods
 - Thoroughly Analyze Run Time 
