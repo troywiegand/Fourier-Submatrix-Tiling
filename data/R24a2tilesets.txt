@@ -1,0 +1,156 @@
+0 2  has these rows that are the same: 
+ 
+0 6 CM Met  T=4Z + {0 , 1}
+
+0 18 CM Met  T=4Z + {0 , 1}
+
+  
+  
+0 3  has these rows that are the same: 
+ 
+0 4 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 12 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 20 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+  
+ 
+0 4  has these rows that are the same: 
+ 
+0 3 CM Met  T=2Z
+
+0 9 CM Met  T=2Z
+
+0 15 CM Met  T=2Z
+
+0 21 CM Met  T=2Z
+
+  
+ 
+0 6  has these rows that are the same: 
+ 
+0 2 CM Met  T=4Z + {0 , 1}
+
+0 6 CM Met  T=4Z + {0 , 1}
+
+0 10 CM Met  T=4Z + {0 , 1}
+
+0 14 CM Met  T=4Z + {0 , 1}
+
+0 18 CM Met  T=4Z + {0 , 1}
+
+0 22 CM Met  T=4Z + {0 , 1}
+
+  
+ 
+0 9  has these rows that are the same: 
+ 
+0 4 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 12 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 20 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+  
+ 
+0 10  has these rows that are the same: 
+ 
+0 6 CM Met  T=4Z + {0 , 1}
+
+0 18 CM Met  T=4Z + {0 , 1}
+
+  
+  
+0 12  has these rows that are the same: 
+ 
+0 1 CM Met  T=2Z
+
+0 3 CM Met  T=2Z
+
+0 5 CM Met  T=2Z
+
+0 7 CM Met  T=2Z
+
+0 9 CM Met  T=2Z
+
+0 11 CM Met  T=2Z
+
+0 13 CM Met  T=2Z
+
+0 15 CM Met  T=2Z
+
+0 17 CM Met  T=2Z
+
+0 19 CM Met  T=2Z
+
+0 21 CM Met  T=2Z
+
+0 23 CM Met  T=2Z
+
+  
+ 
+0 14  has these rows that are the same: 
+ 
+0 6 CM Met  T=4Z + {0 , 1}
+
+0 18 CM Met  T=4Z + {0 , 1}
+
+  
+  
+0 15  has these rows that are the same: 
+ 
+0 4 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 12 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 20 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+  
+ 
+0 18  has these rows that are the same: 
+ 
+0 2 CM Met  T=4Z + {0 , 1}
+
+0 6 CM Met  T=4Z + {0 , 1}
+
+0 10 CM Met  T=4Z + {0 , 1}
+
+0 14 CM Met  T=4Z + {0 , 1}
+
+0 18 CM Met  T=4Z + {0 , 1}
+
+0 22 CM Met  T=4Z + {0 , 1}
+
+  
+ 
+0 20  has these rows that are the same: 
+ 
+0 3 CM Met  T=2Z
+
+0 9 CM Met  T=2Z
+
+0 15 CM Met  T=2Z
+
+0 21 CM Met  T=2Z
+
+  
+ 
+0 21  has these rows that are the same: 
+ 
+0 4 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 12 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+0 20 CM Met  T=8Z + {0 , 1 , 2 , 3}
+
+  
+ 
+0 22  has these rows that are the same: 
+ 
+0 6 CM Met  T=4Z + {0 , 1}
+
+0 18 CM Met  T=4Z + {0 , 1}
+
+  
+  

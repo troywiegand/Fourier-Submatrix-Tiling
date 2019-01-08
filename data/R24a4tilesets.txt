@@ -1,0 +1,2316 @@
+0 1 4 5  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 2 4 6  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 3 4 7  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 1 6 7  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 5 9  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 3 6 9  has these rows that are the same: 
+ 
+0 2 4 6 CM Met  T=8Z + {0 , 1}
+
+0 4 6 10 CM Met  T=8Z + {0 , 1}
+
+0 2 6 12 CM Met  T=8Z + {0 , 1}
+
+0 6 10 12 CM Met  T=8Z + {0 , 1}
+
+0 2 4 14 CM Met  T=8Z + {0 , 1}
+
+0 4 10 14 CM Met  T=8Z + {0 , 1}
+
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 10 12 14 CM Met  T=8Z + {0 , 1}
+
+0 4 6 18 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 4 14 18 CM Met  T=8Z + {0 , 1}
+
+0 12 14 18 CM Met  T=8Z + {0 , 1}
+
+0 2 6 20 CM Met  T=8Z + {0 , 1}
+
+0 6 10 20 CM Met  T=8Z + {0 , 1}
+
+0 2 14 20 CM Met  T=8Z + {0 , 1}
+
+0 10 14 20 CM Met  T=8Z + {0 , 1}
+
+0 6 18 20 CM Met  T=8Z + {0 , 1}
+
+0 14 18 20 CM Met  T=8Z + {0 , 1}
+
+0 2 4 22 CM Met  T=8Z + {0 , 1}
+
+0 4 10 22 CM Met  T=8Z + {0 , 1}
+
+0 2 12 22 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+0 4 18 22 CM Met  T=8Z + {0 , 1}
+
+0 12 18 22 CM Met  T=8Z + {0 , 1}
+
+0 2 20 22 CM Met  T=8Z + {0 , 1}
+
+0 10 20 22 CM Met  T=8Z + {0 , 1}
+
+0 18 20 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 6 10  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 5 6 11  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 7 11  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 1 5 12  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 2 6 12  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 3 7 12  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 5 9 12  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 6 10 12  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 7 11 12  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 1 4 13  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 6 7 13  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 9 13  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 1 12 13  has these rows that are the same: 
+ 
+0 1 12 13 CM Met  T=8Z + {0 , 2}
+
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 5 12 17 CM Met  T=8Z + {0 , 2}
+
+0 7 12 19 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+0 11 12 23 CM Met  T=8Z + {0 , 2}
+
+  
+ 
+0 9 12 13  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 2 4 14  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 4 10 14  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 2 12 14  has these rows that are the same: 
+ 
+0 1 6 7 CM Met  T=4Z
+
+0 3 6 9 CM Met  T=4Z
+
+0 5 6 11 CM Met  T=4Z
+
+0 6 7 13 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 6 11 17 CM Met  T=4Z
+
+0 1 7 18 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 5 11 18 CM Met  T=4Z
+
+0 7 13 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 11 17 18 CM Met  T=4Z
+
+0 1 6 19 CM Met  T=4Z
+
+0 6 13 19 CM Met  T=4Z
+
+0 1 18 19 CM Met  T=4Z
+
+0 13 18 19 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+0 5 6 23 CM Met  T=4Z
+
+0 6 17 23 CM Met  T=4Z
+
+0 5 18 23 CM Met  T=4Z
+
+0 17 18 23 CM Met  T=4Z
+
+  
+ 
+0 10 12 14  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 3 4 15  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 6 9 15  has these rows that are the same: 
+ 
+0 2 4 6 CM Met  T=8Z + {0 , 1}
+
+0 4 6 10 CM Met  T=8Z + {0 , 1}
+
+0 2 6 12 CM Met  T=8Z + {0 , 1}
+
+0 6 10 12 CM Met  T=8Z + {0 , 1}
+
+0 2 4 14 CM Met  T=8Z + {0 , 1}
+
+0 4 10 14 CM Met  T=8Z + {0 , 1}
+
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 10 12 14 CM Met  T=8Z + {0 , 1}
+
+0 4 6 18 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 4 14 18 CM Met  T=8Z + {0 , 1}
+
+0 12 14 18 CM Met  T=8Z + {0 , 1}
+
+0 2 6 20 CM Met  T=8Z + {0 , 1}
+
+0 6 10 20 CM Met  T=8Z + {0 , 1}
+
+0 2 14 20 CM Met  T=8Z + {0 , 1}
+
+0 10 14 20 CM Met  T=8Z + {0 , 1}
+
+0 6 18 20 CM Met  T=8Z + {0 , 1}
+
+0 14 18 20 CM Met  T=8Z + {0 , 1}
+
+0 2 4 22 CM Met  T=8Z + {0 , 1}
+
+0 4 10 22 CM Met  T=8Z + {0 , 1}
+
+0 2 12 22 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+0 4 18 22 CM Met  T=8Z + {0 , 1}
+
+0 12 18 22 CM Met  T=8Z + {0 , 1}
+
+0 2 20 22 CM Met  T=8Z + {0 , 1}
+
+0 10 20 22 CM Met  T=8Z + {0 , 1}
+
+0 18 20 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 11 15  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 3 12 15  has these rows that are the same: 
+ 
+0 1 4 5 CM Met  T=8Z + {0 , 2}
+
+0 3 4 7 CM Met  T=8Z + {0 , 2}
+
+0 4 5 9 CM Met  T=8Z + {0 , 2}
+
+0 4 7 11 CM Met  T=8Z + {0 , 2}
+
+0 1 5 12 CM Met  T=8Z + {0 , 2}
+
+0 3 7 12 CM Met  T=8Z + {0 , 2}
+
+0 5 9 12 CM Met  T=8Z + {0 , 2}
+
+0 7 11 12 CM Met  T=8Z + {0 , 2}
+
+0 1 4 13 CM Met  T=8Z + {0 , 2}
+
+0 4 9 13 CM Met  T=8Z + {0 , 2}
+
+0 1 12 13 CM Met  T=8Z + {0 , 2}
+
+0 9 12 13 CM Met  T=8Z + {0 , 2}
+
+0 3 4 15 CM Met  T=8Z + {0 , 2}
+
+0 4 11 15 CM Met  T=8Z + {0 , 2}
+
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 11 12 15 CM Met  T=8Z + {0 , 2}
+
+0 4 5 17 CM Met  T=8Z + {0 , 2}
+
+0 5 12 17 CM Met  T=8Z + {0 , 2}
+
+0 4 13 17 CM Met  T=8Z + {0 , 2}
+
+0 12 13 17 CM Met  T=8Z + {0 , 2}
+
+0 4 7 19 CM Met  T=8Z + {0 , 2}
+
+0 7 12 19 CM Met  T=8Z + {0 , 2}
+
+0 4 15 19 CM Met  T=8Z + {0 , 2}
+
+0 12 15 19 CM Met  T=8Z + {0 , 2}
+
+0 1 5 20 CM Met  T=8Z + {0 , 2}
+
+0 3 7 20 CM Met  T=8Z + {0 , 2}
+
+0 5 9 20 CM Met  T=8Z + {0 , 2}
+
+0 7 11 20 CM Met  T=8Z + {0 , 2}
+
+0 1 13 20 CM Met  T=8Z + {0 , 2}
+
+0 9 13 20 CM Met  T=8Z + {0 , 2}
+
+0 3 15 20 CM Met  T=8Z + {0 , 2}
+
+0 11 15 20 CM Met  T=8Z + {0 , 2}
+
+0 5 17 20 CM Met  T=8Z + {0 , 2}
+
+0 13 17 20 CM Met  T=8Z + {0 , 2}
+
+0 7 19 20 CM Met  T=8Z + {0 , 2}
+
+0 15 19 20 CM Met  T=8Z + {0 , 2}
+
+0 1 4 21 CM Met  T=8Z + {0 , 2}
+
+0 4 9 21 CM Met  T=8Z + {0 , 2}
+
+0 1 12 21 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+0 4 17 21 CM Met  T=8Z + {0 , 2}
+
+0 12 17 21 CM Met  T=8Z + {0 , 2}
+
+0 1 20 21 CM Met  T=8Z + {0 , 2}
+
+0 9 20 21 CM Met  T=8Z + {0 , 2}
+
+0 17 20 21 CM Met  T=8Z + {0 , 2}
+
+0 3 4 23 CM Met  T=8Z + {0 , 2}
+
+0 4 11 23 CM Met  T=8Z + {0 , 2}
+
+0 3 12 23 CM Met  T=8Z + {0 , 2}
+
+0 11 12 23 CM Met  T=8Z + {0 , 2}
+
+0 4 19 23 CM Met  T=8Z + {0 , 2}
+
+0 12 19 23 CM Met  T=8Z + {0 , 2}
+
+0 3 20 23 CM Met  T=8Z + {0 , 2}
+
+0 11 20 23 CM Met  T=8Z + {0 , 2}
+
+0 19 20 23 CM Met  T=8Z + {0 , 2}
+
+  
+ 
+0 11 12 15  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 4 5 17  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 6 11 17  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 5 12 17  has these rows that are the same: 
+ 
+0 1 12 13 CM Met  T=8Z + {0 , 2}
+
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 5 12 17 CM Met  T=8Z + {0 , 2}
+
+0 7 12 19 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+0 11 12 23 CM Met  T=8Z + {0 , 2}
+
+  
+ 
+0 4 13 17  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 12 13 17  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 4 6 18  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 1 7 18  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 3 9 18  has these rows that are the same: 
+ 
+0 2 4 6 CM Met  T=8Z + {0 , 1}
+
+0 4 6 10 CM Met  T=8Z + {0 , 1}
+
+0 2 6 12 CM Met  T=8Z + {0 , 1}
+
+0 6 10 12 CM Met  T=8Z + {0 , 1}
+
+0 2 4 14 CM Met  T=8Z + {0 , 1}
+
+0 4 10 14 CM Met  T=8Z + {0 , 1}
+
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 10 12 14 CM Met  T=8Z + {0 , 1}
+
+0 4 6 18 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 4 14 18 CM Met  T=8Z + {0 , 1}
+
+0 12 14 18 CM Met  T=8Z + {0 , 1}
+
+0 2 6 20 CM Met  T=8Z + {0 , 1}
+
+0 6 10 20 CM Met  T=8Z + {0 , 1}
+
+0 2 14 20 CM Met  T=8Z + {0 , 1}
+
+0 10 14 20 CM Met  T=8Z + {0 , 1}
+
+0 6 18 20 CM Met  T=8Z + {0 , 1}
+
+0 14 18 20 CM Met  T=8Z + {0 , 1}
+
+0 2 4 22 CM Met  T=8Z + {0 , 1}
+
+0 4 10 22 CM Met  T=8Z + {0 , 1}
+
+0 2 12 22 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+0 4 18 22 CM Met  T=8Z + {0 , 1}
+
+0 12 18 22 CM Met  T=8Z + {0 , 1}
+
+0 2 20 22 CM Met  T=8Z + {0 , 1}
+
+0 10 20 22 CM Met  T=8Z + {0 , 1}
+
+0 18 20 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 5 11 18  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 6 12 18  has these rows that are the same: 
+ 
+0 1 2 3 CM Met  T=4Z
+
+0 2 3 5 CM Met  T=4Z
+
+0 1 3 6 CM Met  T=4Z
+
+0 3 5 6 CM Met  T=4Z
+
+0 1 2 7 CM Met  T=4Z
+
+0 2 5 7 CM Met  T=4Z
+
+0 1 6 7 CM Met  T=4Z
+
+0 5 6 7 CM Met  T=4Z
+
+0 2 3 9 CM Met  T=4Z
+
+0 3 6 9 CM Met  T=4Z
+
+0 2 7 9 CM Met  T=4Z
+
+0 6 7 9 CM Met  T=4Z
+
+0 1 3 10 CM Met  T=4Z
+
+0 3 5 10 CM Met  T=4Z
+
+0 1 7 10 CM Met  T=4Z
+
+0 5 7 10 CM Met  T=4Z
+
+0 3 9 10 CM Met  T=4Z
+
+0 7 9 10 CM Met  T=4Z
+
+0 1 2 11 CM Met  T=4Z
+
+0 2 5 11 CM Met  T=4Z
+
+0 1 6 11 CM Met  T=4Z
+
+0 5 6 11 CM Met  T=4Z
+
+0 2 9 11 CM Met  T=4Z
+
+0 6 9 11 CM Met  T=4Z
+
+0 1 10 11 CM Met  T=4Z
+
+0 5 10 11 CM Met  T=4Z
+
+0 9 10 11 CM Met  T=4Z
+
+0 2 3 13 CM Met  T=4Z
+
+0 3 6 13 CM Met  T=4Z
+
+0 2 7 13 CM Met  T=4Z
+
+0 6 7 13 CM Met  T=4Z
+
+0 3 10 13 CM Met  T=4Z
+
+0 7 10 13 CM Met  T=4Z
+
+0 2 11 13 CM Met  T=4Z
+
+0 6 11 13 CM Met  T=4Z
+
+0 10 11 13 CM Met  T=4Z
+
+0 1 3 14 CM Met  T=4Z
+
+0 3 5 14 CM Met  T=4Z
+
+0 1 7 14 CM Met  T=4Z
+
+0 5 7 14 CM Met  T=4Z
+
+0 3 9 14 CM Met  T=4Z
+
+0 7 9 14 CM Met  T=4Z
+
+0 1 11 14 CM Met  T=4Z
+
+0 5 11 14 CM Met  T=4Z
+
+0 9 11 14 CM Met  T=4Z
+
+0 3 13 14 CM Met  T=4Z
+
+0 7 13 14 CM Met  T=4Z
+
+0 11 13 14 CM Met  T=4Z
+
+0 1 2 15 CM Met  T=4Z
+
+0 2 5 15 CM Met  T=4Z
+
+0 1 6 15 CM Met  T=4Z
+
+0 5 6 15 CM Met  T=4Z
+
+0 2 9 15 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 1 10 15 CM Met  T=4Z
+
+0 5 10 15 CM Met  T=4Z
+
+0 9 10 15 CM Met  T=4Z
+
+0 2 13 15 CM Met  T=4Z
+
+0 6 13 15 CM Met  T=4Z
+
+0 10 13 15 CM Met  T=4Z
+
+0 1 14 15 CM Met  T=4Z
+
+0 5 14 15 CM Met  T=4Z
+
+0 9 14 15 CM Met  T=4Z
+
+0 13 14 15 CM Met  T=4Z
+
+0 2 3 17 CM Met  T=4Z
+
+0 3 6 17 CM Met  T=4Z
+
+0 2 7 17 CM Met  T=4Z
+
+0 6 7 17 CM Met  T=4Z
+
+0 3 10 17 CM Met  T=4Z
+
+0 7 10 17 CM Met  T=4Z
+
+0 2 11 17 CM Met  T=4Z
+
+0 6 11 17 CM Met  T=4Z
+
+0 10 11 17 CM Met  T=4Z
+
+0 3 14 17 CM Met  T=4Z
+
+0 7 14 17 CM Met  T=4Z
+
+0 11 14 17 CM Met  T=4Z
+
+0 2 15 17 CM Met  T=4Z
+
+0 6 15 17 CM Met  T=4Z
+
+0 10 15 17 CM Met  T=4Z
+
+0 14 15 17 CM Met  T=4Z
+
+0 1 3 18 CM Met  T=4Z
+
+0 3 5 18 CM Met  T=4Z
+
+0 1 7 18 CM Met  T=4Z
+
+0 5 7 18 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 7 9 18 CM Met  T=4Z
+
+0 1 11 18 CM Met  T=4Z
+
+0 5 11 18 CM Met  T=4Z
+
+0 9 11 18 CM Met  T=4Z
+
+0 3 13 18 CM Met  T=4Z
+
+0 7 13 18 CM Met  T=4Z
+
+0 11 13 18 CM Met  T=4Z
+
+0 1 15 18 CM Met  T=4Z
+
+0 5 15 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 13 15 18 CM Met  T=4Z
+
+0 3 17 18 CM Met  T=4Z
+
+0 7 17 18 CM Met  T=4Z
+
+0 11 17 18 CM Met  T=4Z
+
+0 15 17 18 CM Met  T=4Z
+
+0 1 2 19 CM Met  T=4Z
+
+0 2 5 19 CM Met  T=4Z
+
+0 1 6 19 CM Met  T=4Z
+
+0 5 6 19 CM Met  T=4Z
+
+0 2 9 19 CM Met  T=4Z
+
+0 6 9 19 CM Met  T=4Z
+
+0 1 10 19 CM Met  T=4Z
+
+0 5 10 19 CM Met  T=4Z
+
+0 9 10 19 CM Met  T=4Z
+
+0 2 13 19 CM Met  T=4Z
+
+0 6 13 19 CM Met  T=4Z
+
+0 10 13 19 CM Met  T=4Z
+
+0 1 14 19 CM Met  T=4Z
+
+0 5 14 19 CM Met  T=4Z
+
+0 9 14 19 CM Met  T=4Z
+
+0 13 14 19 CM Met  T=4Z
+
+0 2 17 19 CM Met  T=4Z
+
+0 6 17 19 CM Met  T=4Z
+
+0 10 17 19 CM Met  T=4Z
+
+0 14 17 19 CM Met  T=4Z
+
+0 1 18 19 CM Met  T=4Z
+
+0 5 18 19 CM Met  T=4Z
+
+0 9 18 19 CM Met  T=4Z
+
+0 13 18 19 CM Met  T=4Z
+
+0 17 18 19 CM Met  T=4Z
+
+0 2 3 21 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 2 7 21 CM Met  T=4Z
+
+0 6 7 21 CM Met  T=4Z
+
+0 3 10 21 CM Met  T=4Z
+
+0 7 10 21 CM Met  T=4Z
+
+0 2 11 21 CM Met  T=4Z
+
+0 6 11 21 CM Met  T=4Z
+
+0 10 11 21 CM Met  T=4Z
+
+0 3 14 21 CM Met  T=4Z
+
+0 7 14 21 CM Met  T=4Z
+
+0 11 14 21 CM Met  T=4Z
+
+0 2 15 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 10 15 21 CM Met  T=4Z
+
+0 14 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 7 18 21 CM Met  T=4Z
+
+0 11 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+0 2 19 21 CM Met  T=4Z
+
+0 6 19 21 CM Met  T=4Z
+
+0 10 19 21 CM Met  T=4Z
+
+0 14 19 21 CM Met  T=4Z
+
+0 18 19 21 CM Met  T=4Z
+
+0 1 3 22 CM Met  T=4Z
+
+0 3 5 22 CM Met  T=4Z
+
+0 1 7 22 CM Met  T=4Z
+
+0 5 7 22 CM Met  T=4Z
+
+0 3 9 22 CM Met  T=4Z
+
+0 7 9 22 CM Met  T=4Z
+
+0 1 11 22 CM Met  T=4Z
+
+0 5 11 22 CM Met  T=4Z
+
+0 9 11 22 CM Met  T=4Z
+
+0 3 13 22 CM Met  T=4Z
+
+0 7 13 22 CM Met  T=4Z
+
+0 11 13 22 CM Met  T=4Z
+
+0 1 15 22 CM Met  T=4Z
+
+0 5 15 22 CM Met  T=4Z
+
+0 9 15 22 CM Met  T=4Z
+
+0 13 15 22 CM Met  T=4Z
+
+0 3 17 22 CM Met  T=4Z
+
+0 7 17 22 CM Met  T=4Z
+
+0 11 17 22 CM Met  T=4Z
+
+0 15 17 22 CM Met  T=4Z
+
+0 1 19 22 CM Met  T=4Z
+
+0 5 19 22 CM Met  T=4Z
+
+0 9 19 22 CM Met  T=4Z
+
+0 13 19 22 CM Met  T=4Z
+
+0 17 19 22 CM Met  T=4Z
+
+0 3 21 22 CM Met  T=4Z
+
+0 7 21 22 CM Met  T=4Z
+
+0 11 21 22 CM Met  T=4Z
+
+0 15 21 22 CM Met  T=4Z
+
+0 19 21 22 CM Met  T=4Z
+
+0 1 2 23 CM Met  T=4Z
+
+0 2 5 23 CM Met  T=4Z
+
+0 1 6 23 CM Met  T=4Z
+
+0 5 6 23 CM Met  T=4Z
+
+0 2 9 23 CM Met  T=4Z
+
+0 6 9 23 CM Met  T=4Z
+
+0 1 10 23 CM Met  T=4Z
+
+0 5 10 23 CM Met  T=4Z
+
+0 9 10 23 CM Met  T=4Z
+
+0 2 13 23 CM Met  T=4Z
+
+0 6 13 23 CM Met  T=4Z
+
+0 10 13 23 CM Met  T=4Z
+
+0 1 14 23 CM Met  T=4Z
+
+0 5 14 23 CM Met  T=4Z
+
+0 9 14 23 CM Met  T=4Z
+
+0 13 14 23 CM Met  T=4Z
+
+0 2 17 23 CM Met  T=4Z
+
+0 6 17 23 CM Met  T=4Z
+
+0 10 17 23 CM Met  T=4Z
+
+0 14 17 23 CM Met  T=4Z
+
+0 1 18 23 CM Met  T=4Z
+
+0 5 18 23 CM Met  T=4Z
+
+0 9 18 23 CM Met  T=4Z
+
+0 13 18 23 CM Met  T=4Z
+
+0 17 18 23 CM Met  T=4Z
+
+0 2 21 23 CM Met  T=4Z
+
+0 6 21 23 CM Met  T=4Z
+
+0 10 21 23 CM Met  T=4Z
+
+0 14 21 23 CM Met  T=4Z
+
+0 18 21 23 CM Met  T=4Z
+
+0 1 22 23 CM Met  T=4Z
+
+0 5 22 23 CM Met  T=4Z
+
+0 9 22 23 CM Met  T=4Z
+
+0 13 22 23 CM Met  T=4Z
+
+0 17 22 23 CM Met  T=4Z
+
+0 21 22 23 CM Met  T=4Z
+
+  
+ 
+0 7 13 18  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 14 18  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 12 14 18  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 9 15 18  has these rows that are the same: 
+ 
+0 2 4 6 CM Met  T=8Z + {0 , 1}
+
+0 4 6 10 CM Met  T=8Z + {0 , 1}
+
+0 2 6 12 CM Met  T=8Z + {0 , 1}
+
+0 6 10 12 CM Met  T=8Z + {0 , 1}
+
+0 2 4 14 CM Met  T=8Z + {0 , 1}
+
+0 4 10 14 CM Met  T=8Z + {0 , 1}
+
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 10 12 14 CM Met  T=8Z + {0 , 1}
+
+0 4 6 18 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 4 14 18 CM Met  T=8Z + {0 , 1}
+
+0 12 14 18 CM Met  T=8Z + {0 , 1}
+
+0 2 6 20 CM Met  T=8Z + {0 , 1}
+
+0 6 10 20 CM Met  T=8Z + {0 , 1}
+
+0 2 14 20 CM Met  T=8Z + {0 , 1}
+
+0 10 14 20 CM Met  T=8Z + {0 , 1}
+
+0 6 18 20 CM Met  T=8Z + {0 , 1}
+
+0 14 18 20 CM Met  T=8Z + {0 , 1}
+
+0 2 4 22 CM Met  T=8Z + {0 , 1}
+
+0 4 10 22 CM Met  T=8Z + {0 , 1}
+
+0 2 12 22 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+0 4 18 22 CM Met  T=8Z + {0 , 1}
+
+0 12 18 22 CM Met  T=8Z + {0 , 1}
+
+0 2 20 22 CM Met  T=8Z + {0 , 1}
+
+0 10 20 22 CM Met  T=8Z + {0 , 1}
+
+0 18 20 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 11 17 18  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 1 6 19  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 7 19  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 7 12 19  has these rows that are the same: 
+ 
+0 1 12 13 CM Met  T=8Z + {0 , 2}
+
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 5 12 17 CM Met  T=8Z + {0 , 2}
+
+0 7 12 19 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+0 11 12 23 CM Met  T=8Z + {0 , 2}
+
+  
+ 
+0 6 13 19  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 15 19  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 12 15 19  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 1 18 19  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 13 18 19  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 1 5 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 2 6 20  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 3 7 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 5 9 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 6 10 20  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 7 11 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 1 13 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 9 13 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 2 14 20  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 10 14 20  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 3 15 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 11 15 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 5 17 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 13 17 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 6 18 20  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 14 18 20  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 7 19 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 15 19 20  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 1 4 21  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 3 6 21  has these rows that are the same: 
+ 
+0 2 4 6 CM Met  T=8Z + {0 , 1}
+
+0 4 6 10 CM Met  T=8Z + {0 , 1}
+
+0 2 6 12 CM Met  T=8Z + {0 , 1}
+
+0 6 10 12 CM Met  T=8Z + {0 , 1}
+
+0 2 4 14 CM Met  T=8Z + {0 , 1}
+
+0 4 10 14 CM Met  T=8Z + {0 , 1}
+
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 10 12 14 CM Met  T=8Z + {0 , 1}
+
+0 4 6 18 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 4 14 18 CM Met  T=8Z + {0 , 1}
+
+0 12 14 18 CM Met  T=8Z + {0 , 1}
+
+0 2 6 20 CM Met  T=8Z + {0 , 1}
+
+0 6 10 20 CM Met  T=8Z + {0 , 1}
+
+0 2 14 20 CM Met  T=8Z + {0 , 1}
+
+0 10 14 20 CM Met  T=8Z + {0 , 1}
+
+0 6 18 20 CM Met  T=8Z + {0 , 1}
+
+0 14 18 20 CM Met  T=8Z + {0 , 1}
+
+0 2 4 22 CM Met  T=8Z + {0 , 1}
+
+0 4 10 22 CM Met  T=8Z + {0 , 1}
+
+0 2 12 22 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+0 4 18 22 CM Met  T=8Z + {0 , 1}
+
+0 12 18 22 CM Met  T=8Z + {0 , 1}
+
+0 2 20 22 CM Met  T=8Z + {0 , 1}
+
+0 10 20 22 CM Met  T=8Z + {0 , 1}
+
+0 18 20 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 9 21  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 1 12 21  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 9 12 21  has these rows that are the same: 
+ 
+0 1 4 5 CM Met  T=8Z + {0 , 2}
+
+0 3 4 7 CM Met  T=8Z + {0 , 2}
+
+0 4 5 9 CM Met  T=8Z + {0 , 2}
+
+0 4 7 11 CM Met  T=8Z + {0 , 2}
+
+0 1 5 12 CM Met  T=8Z + {0 , 2}
+
+0 3 7 12 CM Met  T=8Z + {0 , 2}
+
+0 5 9 12 CM Met  T=8Z + {0 , 2}
+
+0 7 11 12 CM Met  T=8Z + {0 , 2}
+
+0 1 4 13 CM Met  T=8Z + {0 , 2}
+
+0 4 9 13 CM Met  T=8Z + {0 , 2}
+
+0 1 12 13 CM Met  T=8Z + {0 , 2}
+
+0 9 12 13 CM Met  T=8Z + {0 , 2}
+
+0 3 4 15 CM Met  T=8Z + {0 , 2}
+
+0 4 11 15 CM Met  T=8Z + {0 , 2}
+
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 11 12 15 CM Met  T=8Z + {0 , 2}
+
+0 4 5 17 CM Met  T=8Z + {0 , 2}
+
+0 5 12 17 CM Met  T=8Z + {0 , 2}
+
+0 4 13 17 CM Met  T=8Z + {0 , 2}
+
+0 12 13 17 CM Met  T=8Z + {0 , 2}
+
+0 4 7 19 CM Met  T=8Z + {0 , 2}
+
+0 7 12 19 CM Met  T=8Z + {0 , 2}
+
+0 4 15 19 CM Met  T=8Z + {0 , 2}
+
+0 12 15 19 CM Met  T=8Z + {0 , 2}
+
+0 1 5 20 CM Met  T=8Z + {0 , 2}
+
+0 3 7 20 CM Met  T=8Z + {0 , 2}
+
+0 5 9 20 CM Met  T=8Z + {0 , 2}
+
+0 7 11 20 CM Met  T=8Z + {0 , 2}
+
+0 1 13 20 CM Met  T=8Z + {0 , 2}
+
+0 9 13 20 CM Met  T=8Z + {0 , 2}
+
+0 3 15 20 CM Met  T=8Z + {0 , 2}
+
+0 11 15 20 CM Met  T=8Z + {0 , 2}
+
+0 5 17 20 CM Met  T=8Z + {0 , 2}
+
+0 13 17 20 CM Met  T=8Z + {0 , 2}
+
+0 7 19 20 CM Met  T=8Z + {0 , 2}
+
+0 15 19 20 CM Met  T=8Z + {0 , 2}
+
+0 1 4 21 CM Met  T=8Z + {0 , 2}
+
+0 4 9 21 CM Met  T=8Z + {0 , 2}
+
+0 1 12 21 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+0 4 17 21 CM Met  T=8Z + {0 , 2}
+
+0 12 17 21 CM Met  T=8Z + {0 , 2}
+
+0 1 20 21 CM Met  T=8Z + {0 , 2}
+
+0 9 20 21 CM Met  T=8Z + {0 , 2}
+
+0 17 20 21 CM Met  T=8Z + {0 , 2}
+
+0 3 4 23 CM Met  T=8Z + {0 , 2}
+
+0 4 11 23 CM Met  T=8Z + {0 , 2}
+
+0 3 12 23 CM Met  T=8Z + {0 , 2}
+
+0 11 12 23 CM Met  T=8Z + {0 , 2}
+
+0 4 19 23 CM Met  T=8Z + {0 , 2}
+
+0 12 19 23 CM Met  T=8Z + {0 , 2}
+
+0 3 20 23 CM Met  T=8Z + {0 , 2}
+
+0 11 20 23 CM Met  T=8Z + {0 , 2}
+
+0 19 20 23 CM Met  T=8Z + {0 , 2}
+
+  
+ 
+0 6 15 21  has these rows that are the same: 
+ 
+0 2 4 6 CM Met  T=8Z + {0 , 1}
+
+0 4 6 10 CM Met  T=8Z + {0 , 1}
+
+0 2 6 12 CM Met  T=8Z + {0 , 1}
+
+0 6 10 12 CM Met  T=8Z + {0 , 1}
+
+0 2 4 14 CM Met  T=8Z + {0 , 1}
+
+0 4 10 14 CM Met  T=8Z + {0 , 1}
+
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 10 12 14 CM Met  T=8Z + {0 , 1}
+
+0 4 6 18 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 4 14 18 CM Met  T=8Z + {0 , 1}
+
+0 12 14 18 CM Met  T=8Z + {0 , 1}
+
+0 2 6 20 CM Met  T=8Z + {0 , 1}
+
+0 6 10 20 CM Met  T=8Z + {0 , 1}
+
+0 2 14 20 CM Met  T=8Z + {0 , 1}
+
+0 10 14 20 CM Met  T=8Z + {0 , 1}
+
+0 6 18 20 CM Met  T=8Z + {0 , 1}
+
+0 14 18 20 CM Met  T=8Z + {0 , 1}
+
+0 2 4 22 CM Met  T=8Z + {0 , 1}
+
+0 4 10 22 CM Met  T=8Z + {0 , 1}
+
+0 2 12 22 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+0 4 18 22 CM Met  T=8Z + {0 , 1}
+
+0 12 18 22 CM Met  T=8Z + {0 , 1}
+
+0 2 20 22 CM Met  T=8Z + {0 , 1}
+
+0 10 20 22 CM Met  T=8Z + {0 , 1}
+
+0 18 20 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 17 21  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 12 17 21  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 3 18 21  has these rows that are the same: 
+ 
+0 2 4 6 CM Met  T=8Z + {0 , 1}
+
+0 4 6 10 CM Met  T=8Z + {0 , 1}
+
+0 2 6 12 CM Met  T=8Z + {0 , 1}
+
+0 6 10 12 CM Met  T=8Z + {0 , 1}
+
+0 2 4 14 CM Met  T=8Z + {0 , 1}
+
+0 4 10 14 CM Met  T=8Z + {0 , 1}
+
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 10 12 14 CM Met  T=8Z + {0 , 1}
+
+0 4 6 18 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 4 14 18 CM Met  T=8Z + {0 , 1}
+
+0 12 14 18 CM Met  T=8Z + {0 , 1}
+
+0 2 6 20 CM Met  T=8Z + {0 , 1}
+
+0 6 10 20 CM Met  T=8Z + {0 , 1}
+
+0 2 14 20 CM Met  T=8Z + {0 , 1}
+
+0 10 14 20 CM Met  T=8Z + {0 , 1}
+
+0 6 18 20 CM Met  T=8Z + {0 , 1}
+
+0 14 18 20 CM Met  T=8Z + {0 , 1}
+
+0 2 4 22 CM Met  T=8Z + {0 , 1}
+
+0 4 10 22 CM Met  T=8Z + {0 , 1}
+
+0 2 12 22 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+0 4 18 22 CM Met  T=8Z + {0 , 1}
+
+0 12 18 22 CM Met  T=8Z + {0 , 1}
+
+0 2 20 22 CM Met  T=8Z + {0 , 1}
+
+0 10 20 22 CM Met  T=8Z + {0 , 1}
+
+0 18 20 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 15 18 21  has these rows that are the same: 
+ 
+0 2 4 6 CM Met  T=8Z + {0 , 1}
+
+0 4 6 10 CM Met  T=8Z + {0 , 1}
+
+0 2 6 12 CM Met  T=8Z + {0 , 1}
+
+0 6 10 12 CM Met  T=8Z + {0 , 1}
+
+0 2 4 14 CM Met  T=8Z + {0 , 1}
+
+0 4 10 14 CM Met  T=8Z + {0 , 1}
+
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 10 12 14 CM Met  T=8Z + {0 , 1}
+
+0 4 6 18 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 4 14 18 CM Met  T=8Z + {0 , 1}
+
+0 12 14 18 CM Met  T=8Z + {0 , 1}
+
+0 2 6 20 CM Met  T=8Z + {0 , 1}
+
+0 6 10 20 CM Met  T=8Z + {0 , 1}
+
+0 2 14 20 CM Met  T=8Z + {0 , 1}
+
+0 10 14 20 CM Met  T=8Z + {0 , 1}
+
+0 6 18 20 CM Met  T=8Z + {0 , 1}
+
+0 14 18 20 CM Met  T=8Z + {0 , 1}
+
+0 2 4 22 CM Met  T=8Z + {0 , 1}
+
+0 4 10 22 CM Met  T=8Z + {0 , 1}
+
+0 2 12 22 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+0 4 18 22 CM Met  T=8Z + {0 , 1}
+
+0 12 18 22 CM Met  T=8Z + {0 , 1}
+
+0 2 20 22 CM Met  T=8Z + {0 , 1}
+
+0 10 20 22 CM Met  T=8Z + {0 , 1}
+
+0 18 20 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 1 20 21  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 9 20 21  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 17 20 21  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 2 4 22  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 4 10 22  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 2 12 22  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 10 12 22  has these rows that are the same: 
+ 
+0 1 6 7 CM Met  T=4Z
+
+0 3 6 9 CM Met  T=4Z
+
+0 5 6 11 CM Met  T=4Z
+
+0 6 7 13 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 6 11 17 CM Met  T=4Z
+
+0 1 7 18 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 5 11 18 CM Met  T=4Z
+
+0 7 13 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 11 17 18 CM Met  T=4Z
+
+0 1 6 19 CM Met  T=4Z
+
+0 6 13 19 CM Met  T=4Z
+
+0 1 18 19 CM Met  T=4Z
+
+0 13 18 19 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+0 5 6 23 CM Met  T=4Z
+
+0 6 17 23 CM Met  T=4Z
+
+0 5 18 23 CM Met  T=4Z
+
+0 17 18 23 CM Met  T=4Z
+
+  
+ 
+0 4 18 22  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 12 18 22  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 2 20 22  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 10 20 22  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 18 20 22  has these rows that are the same: 
+ 
+0 3 6 9 CM Met  T=4Z
+
+0 6 9 15 CM Met  T=4Z
+
+0 3 9 18 CM Met  T=4Z
+
+0 9 15 18 CM Met  T=4Z
+
+0 3 6 21 CM Met  T=4Z
+
+0 6 15 21 CM Met  T=4Z
+
+0 3 18 21 CM Met  T=4Z
+
+0 15 18 21 CM Met  T=4Z
+
+  
+ 
+0 3 4 23  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 5 6 23  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 11 23  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 3 12 23  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 11 12 23  has these rows that are the same: 
+ 
+0 1 12 13 CM Met  T=8Z + {0 , 2}
+
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 5 12 17 CM Met  T=8Z + {0 , 2}
+
+0 7 12 19 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+0 11 12 23 CM Met  T=8Z + {0 , 2}
+
+  
+ 
+0 6 17 23  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 5 18 23  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 17 18 23  has these rows that are the same: 
+ 
+0 2 12 14 CM Met  T=8Z + {0 , 1}
+
+0 6 12 18 CM Met  T=8Z + {0 , 1}
+
+0 10 12 22 CM Met  T=8Z + {0 , 1}
+
+  
+ 
+0 4 19 23  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 12 19 23  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 3 20 23  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 11 20 23  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
+0 19 20 23  has these rows that are the same: 
+ 
+0 3 12 15 CM Met  T=8Z + {0 , 2}
+
+0 9 12 21 CM Met  T=8Z + {0 , 2}
+
+  
+  
