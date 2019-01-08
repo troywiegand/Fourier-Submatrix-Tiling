@@ -7,7 +7,9 @@ if RowRemoved==HowMany
 
     if norm(H*H'-(R-HowMany)*eye(R-HowMany),'fro')<=.0000001
         %BigArray=RemovedArray ;
-        BigArray=[RemovedArray;zeros(1,length(RemovedArray))];
+        BigArray=[RemovedArray;zeros(1,length(RemovedArray))]
+        dlmwrite('R22a11.txt',RewriteFunction(BigArray,HowMany,R),'-append','delimiter',' ')
+        %,'roffset',1
     else
         BigArray=[];  
     end
