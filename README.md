@@ -2,9 +2,11 @@
 
 
 ### Large Scale Things To Do
-- Make a C++ Program to Generate Hadamard Submatrices
+- Make a C++ Program to Find Hadamard Submatrices
 - Make a C++ Program that incorperates All Tiling Methods
 - Thoroughly Analyze Run Time 
+- Rewrite CM.cpp
+- Look into getting Mathematica kernel on thomas/BigDawg
 
 
 
