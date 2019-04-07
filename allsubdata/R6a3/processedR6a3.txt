@@ -1,0 +1,15 @@
+COL : 0 1 2  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 1 5  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 2 4  
+ ROW  : 0 1 2 CM Met  T=3Z
+
+COL : 0 2 4  
+ ROW  : 0 1 5 CM Met  T=3Z
+
+COL : 0 2 4  
+ ROW  : 0 2 4 CM Met  T=3Z
+

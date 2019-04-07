@@ -1,0 +1,294 @@
+COL : 0 1 2  
+ ROW  : 0 1 2 CM Met  T=3Z
+
+COL : 0 1 2  
+ ROW  : 0 1 3 Needs to be checked.
+
+COL : 0 1 2  
+ ROW  : 0 1 4 Needs to be checked.
+
+COL : 0 1 2  
+ ROW  : 0 1 5 CM Met  T=3Z
+
+COL : 0 1 2  
+ ROW  : 0 2 3 Needs to be checked.
+
+COL : 0 1 2  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 1 2  
+ ROW  : 0 2 5 Needs to be checked.
+
+COL : 0 1 2  
+ ROW  : 0 3 4 Needs to be checked.
+
+COL : 0 1 2  
+ ROW  : 0 3 5 Needs to be checked.
+
+COL : 0 1 2  
+ ROW  : 0 4 5 CM Met  T=3Z
+
+COL : 0 1 3  
+ ROW  : 0 1 2 CM Met  T=3Z
+
+COL : 0 1 3  
+ ROW  : 0 1 3 Needs to be checked.
+
+COL : 0 1 3  
+ ROW  : 0 1 4 Needs to be checked.
+
+COL : 0 1 3  
+ ROW  : 0 1 5 CM Met  T=3Z
+
+COL : 0 1 3  
+ ROW  : 0 2 3 Needs to be checked.
+
+COL : 0 1 3  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 1 3  
+ ROW  : 0 2 5 Needs to be checked.
+
+COL : 0 1 3  
+ ROW  : 0 3 4 Needs to be checked.
+
+COL : 0 1 3  
+ ROW  : 0 3 5 Needs to be checked.
+
+COL : 0 1 3  
+ ROW  : 0 4 5 CM Met  T=3Z
+
+COL : 0 1 4  
+ ROW  : 0 1 2 CM Met  T=3Z
+
+COL : 0 1 4  
+ ROW  : 0 1 3 Needs to be checked.
+
+COL : 0 1 4  
+ ROW  : 0 1 4 Needs to be checked.
+
+COL : 0 1 4  
+ ROW  : 0 1 5 CM Met  T=3Z
+
+COL : 0 1 4  
+ ROW  : 0 2 3 Needs to be checked.
+
+COL : 0 1 4  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 1 4  
+ ROW  : 0 2 5 Needs to be checked.
+
+COL : 0 1 4  
+ ROW  : 0 3 4 Needs to be checked.
+
+COL : 0 1 4  
+ ROW  : 0 3 5 Needs to be checked.
+
+COL : 0 1 4  
+ ROW  : 0 4 5 CM Met  T=3Z
+
+COL : 0 1 5  
+ ROW  : 0 1 2 CM Met  T=3Z
+
+COL : 0 1 5  
+ ROW  : 0 1 3 Needs to be checked.
+
+COL : 0 1 5  
+ ROW  : 0 1 4 Needs to be checked.
+
+COL : 0 1 5  
+ ROW  : 0 1 5 CM Met  T=3Z
+
+COL : 0 1 5  
+ ROW  : 0 2 3 Needs to be checked.
+
+COL : 0 1 5  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 1 5  
+ ROW  : 0 2 5 Needs to be checked.
+
+COL : 0 1 5  
+ ROW  : 0 3 4 Needs to be checked.
+
+COL : 0 1 5  
+ ROW  : 0 3 5 Needs to be checked.
+
+COL : 0 1 5  
+ ROW  : 0 4 5 CM Met  T=3Z
+
+COL : 0 2 3  
+ ROW  : 0 1 2 CM Met  T=3Z
+
+COL : 0 2 3  
+ ROW  : 0 1 3 Needs to be checked.
+
+COL : 0 2 3  
+ ROW  : 0 1 4 Needs to be checked.
+
+COL : 0 2 3  
+ ROW  : 0 1 5 CM Met  T=3Z
+
+COL : 0 2 3  
+ ROW  : 0 2 3 Needs to be checked.
+
+COL : 0 2 3  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 2 3  
+ ROW  : 0 2 5 Needs to be checked.
+
+COL : 0 2 3  
+ ROW  : 0 3 4 Needs to be checked.
+
+COL : 0 2 3  
+ ROW  : 0 3 5 Needs to be checked.
+
+COL : 0 2 3  
+ ROW  : 0 4 5 CM Met  T=3Z
+
+COL : 0 2 4  
+ ROW  : 0 1 2 CM Met  T=3Z
+
+COL : 0 2 4  
+ ROW  : 0 1 3 Needs to be checked.
+
+COL : 0 2 4  
+ ROW  : 0 1 4 Needs to be checked.
+
+COL : 0 2 4  
+ ROW  : 0 1 5 CM Met  T=3Z
+
+COL : 0 2 4  
+ ROW  : 0 2 3 Needs to be checked.
+
+COL : 0 2 4  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 2 4  
+ ROW  : 0 2 5 Needs to be checked.
+
+COL : 0 2 4  
+ ROW  : 0 3 4 Needs to be checked.
+
+COL : 0 2 4  
+ ROW  : 0 3 5 Needs to be checked.
+
+COL : 0 2 4  
+ ROW  : 0 4 5 CM Met  T=3Z
+
+COL : 0 2 5  
+ ROW  : 0 1 2 CM Met  T=3Z
+
+COL : 0 2 5  
+ ROW  : 0 1 3 Needs to be checked.
+
+COL : 0 2 5  
+ ROW  : 0 1 4 Needs to be checked.
+
+COL : 0 2 5  
+ ROW  : 0 1 5 CM Met  T=3Z
+
+COL : 0 2 5  
+ ROW  : 0 2 3 Needs to be checked.
+
+COL : 0 2 5  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 2 5  
+ ROW  : 0 2 5 Needs to be checked.
+
+COL : 0 2 5  
+ ROW  : 0 3 4 Needs to be checked.
+
+COL : 0 2 5  
+ ROW  : 0 3 5 Needs to be checked.
+
+COL : 0 2 5  
+ ROW  : 0 4 5 CM Met  T=3Z
+
+COL : 0 3 4  
+ ROW  : 0 1 2 CM Met  T=3Z
+
+COL : 0 3 4  
+ ROW  : 0 1 3 Needs to be checked.
+
+COL : 0 3 4  
+ ROW  : 0 1 4 Needs to be checked.
+
+COL : 0 3 4  
+ ROW  : 0 1 5 CM Met  T=3Z
+
+COL : 0 3 4  
+ ROW  : 0 2 3 Needs to be checked.
+
+COL : 0 3 4  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 3 4  
+ ROW  : 0 2 5 Needs to be checked.
+
+COL : 0 3 4  
+ ROW  : 0 3 4 Needs to be checked.
+
+COL : 0 3 4  
+ ROW  : 0 3 5 Needs to be checked.
+
+COL : 0 3 4  
+ ROW  : 0 4 5 CM Met  T=3Z
+
+COL : 0 3 5  
+ ROW  : 0 1 2 CM Met  T=3Z
+
+COL : 0 3 5  
+ ROW  : 0 1 3 Needs to be checked.
+
+COL : 0 3 5  
+ ROW  : 0 1 4 Needs to be checked.
+
+COL : 0 3 5  
+ ROW  : 0 1 5 CM Met  T=3Z
+
+COL : 0 3 5  
+ ROW  : 0 2 3 Needs to be checked.
+
+COL : 0 3 5  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 3 5  
+ ROW  : 0 2 5 Needs to be checked.
+
+COL : 0 3 5  
+ ROW  : 0 3 4 Needs to be checked.
+
+COL : 0 3 5  
+ ROW  : 0 3 5 Needs to be checked.
+
+COL : 0 3 5  
+ ROW  : 0 4 5 CM Met  T=3Z
+
+COL : 0 4 5  
+ ROW  : 0 1 2 CM Met  T=3Z
+
+COL : 0 4 5  
+ ROW  : 0 1 3 Needs to be checked.
+
+COL : 0 4 5  
+ ROW  : 0 1 4 Needs to be checked.
+
+COL : 0 4 5  
+ ROW  : 0 1 5 CM Met  T=3Z
+
+COL : 0 4 5  
+ ROW  : 0 2 3 Needs to be checked.
+
+COL : 0 4 5  
+ ROW  : 0 2 4 CM Met  T=3Z
+
+COL : 0 4 5  
+ ROW  : 0 2 5 Needs to be checked.
+
+COL : 0 4 5  
+ ROW  : 0 3 4 Needs to be checked.
+
