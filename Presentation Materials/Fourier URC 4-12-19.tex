@@ -34,59 +34,22 @@
 \usetikzlibrary{arrows,shapes,shadows}
 %%%%%%%%%%%%%
 
-\usepackage{ytableau}
 %\usepackage{multicol}
 
 \setbeamertemplate{navigation symbols}{}
 \definecolor{pastgrey}{rgb}{0.81, 0.84, 0.78}
 \definecolor{spink}{rgb}{0.92, 0.73 , 0.72}
-\setbeamercolor{block title}{fg=spink} %color for proof and theorems
+\setbeamercolor{block title}{bg=colorPurp} %color for proof and theorems
 \definecolor{PicBlue}{rgb}{0.19, 0.74 , 0.92}
 
-\setbeamercolor{block body}{bg=PicBlue}
-\setbeamercolor{block body}{fg=spink}
+%\setbeamercolor{block body}{bg=pastgrey}
+%\setbeamercolor{block body}{fg=colorTwo}
 
 \newcommand\T{\rule{0pt}{2.6ex}}
 \newcommand\B{\rule[-1.2ex]{0pt}{0pt}}
 
-\newcommand{\C}{\mathbb{C}}
-\newcommand{\Q}{\mathbb{Q}}
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\Z}{\mathbb{Z}}
-
-\newcommand{\sN}{\mathcal{N}}
-\newcommand{\sM}{\mathscr{M}}
-\newcommand{\sO}{\mathcal{O}}
-\newcommand{\sNt}{\widetilde{\mathcal{N}}}
-\newcommand{\sMt}{\widetilde{\mathscr{M}}}
-\newcommand{\Bx}{\mathscr{B}_x}
-\newcommand{\Ox}{\mathcal{O}_G}
-\newcommand{\OL}{\mathcal{O}_L}
-\newcommand{\Op}{\mathcal{O}_P}
-\newcommand{\Mx}{\widetilde{\mathscr{M}}_x}
-
-\newcommand{\Ql}{\mathbb{Q}_{\ell}}
-\newcommand{\Qlb}{\overline{\mathbb{Q}}_{\ell}}
-
-\newcommand{\kg}{\mathfrak{g}}
-\newcommand{\kh}{\mathfrak{h}}
-\newcommand{\kf}{\mathfrak{f}}
-\newcommand{\ku}{\mathfrak{u}}
-\newcommand{\kb}{\mathfrak{b}}
-\newcommand{\kt}{\mathfrak{t}}
-\newcommand{\ksl}{\mathfrak{sl}}
-\newcommand{\sln}{\mathfrak{sl}_n}
 
 \newcommand{\Tau}{\mathrm{T}}
-
-\newcommand{\IC}{\mathrm{IC}}
-
-\DeclareMathOperator{\Spec}{Spec}
-\DeclareMathOperator{\multi}{multi}
-\DeclareMathOperator{\Lie}{Lie}
-\DeclareMathOperator{\ad}{ad}
-\DeclareMathOperator{\rank}{rank}
-\DeclareMathOperator{\Irrep}{Irrep}
 
 %\theoremstyle{plain}
 \newtheorem{thm}{Theorem}[section]
@@ -235,26 +198,26 @@
 
 
 }%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\frame{\frametitle{Period and Shifting Set Example}
+% \frame{\frametitle{Period and Shifting Set Example}
 
 
-	\textcolor{colorTwo}{\textbf{Example:} }
-	Let's look at $A = \{0,1,4,5 \}$ again.\\
-	\pause
-	Remember $S_A = \{ 2,8 \}$.\\
-	\[ N_A = lcm(2,8)=8 .\]
-	\pause
-	\[ S_B = \{ 4 \} \text{ and } t(4)=\text{largest factor of $N_A$ relatively prime to 4} \]
-	\pause
-	\[ B(x) = \Phi_{4}(x^{1}) = 1+x^2 \text{\pause \hspace{5pt}  and } B = \{ 0,2 \} .\]
+% 	\textcolor{colorTwo}{\textbf{Example:} }
+% 	Let's look at $A = \{0,1,4,5 \}$ again.\\
+% 	\pause
+% 	Remember $S_A = \{ 2,8 \}$.\\
+% 	\[ N_A = lcm(2,8)=8 .\]
+% 	\pause
+% 	\[ S_B = \{ 4 \} \text{ and } t(4)=\text{largest factor of $N_A$ relatively prime to 4} \]
+% 	\pause
+% 	\[ B(x) = \Phi_{4}(x^{1}) = 1+x^2 \text{\pause \hspace{5pt}  and } B = \{ 0,2 \} .\]
 
-	\pause
-	\begin{center}
-		Therefore, $T = \{0,2 \} \oplus 8\mathbb Z$.
-	\end{center}
+% 	\pause
+% 	\begin{center}
+% 		Therefore, $T = \{0,2 \} \oplus 8\mathbb Z$.
+% 	\end{center}
 
 
-}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% }%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%
 \section{Hadamard and Fourier Matrices}
 \subsection{}
@@ -320,22 +283,39 @@
 %%%%%%%%%%%%%%%%%%%%%%%
 \frame{\frametitle{What Am I Doing?}
 
+
 	\begin{columns}
-
-
 		\begin{column}{0.32\textwidth}
 			\includegraphics[scale=1]{R4a2input.png}
 		\end{column}
 		\pause
 		\begin{column}{0.68\textwidth}
-			\includegraphics[scale=1]{R4a2output.png}
+			\only<2>{\Large
+				\[
+					\mathcal{F}_4 =
+					\begin{bmatrix}
+						1 & 1  & 1  & 1  \\
+						1 & i  & -1 & -i \\
+						1 & -1 & 1  & -1 \\
+						1 & -i & -1 & i
+					\end{bmatrix}
+			\] 
+			\vspace{.3in}
+			\[
+					\begin{bmatrix}
+						1 & 1  \\
+						1 & -1
+					\end{bmatrix} \]
+			}
+			\pause
+			\only<3>{\includegraphics[scale=1]{R4a2output.png} }
 		\end{column}
 
 	\end{columns}
 
-
-
 }
+
+
 %%%%%%%%%%%%%%%%%%%%%%%
 \frame{\frametitle{Why Am I Doing It?}
 
@@ -346,58 +326,7 @@
 	\end{thm}
 
 
-}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\frame{\frametitle{Fourier Matrix Example}
-
-%\[
-%\mathcal{F}_4 =
-%\begin{bmatrix}
-%e^{2i\pi\frac{0}{4}} & e^{2i\pi\frac{0}{4}} & e^{2i\pi\frac{0}{4}} & e^{2i\pi\frac{0}{4}} \\
-%e^{2i\pi\frac{0}{4}} & e^{2i\pi\frac{1}{4}} & e^{2i\pi\frac{2}{4}} & e^{2i\pi\frac{3}{4}} \\
-%e^{2i\pi\frac{0}{4}} & e^{2i\pi\frac{2}{4}} & e^{2i\pi\frac{4}{4}} & e^{2i\pi\frac{6}{4}} \\
-%e^{2i\pi\frac{0}{4}} & e^{2i\pi\frac{3}{4}} & e^{2i\pi\frac{6}{4}} & e^{2i\pi\frac{9}{4}} 
-%\end{bmatrix} =  \begin{bmatrix}
-%1 & 1 & 1 & 1 \\
-%1 & i & -1 & -i \\
-%1 & -1 & 1 & -1 \\
-%1 & -i & -1 & i 
-%\end{bmatrix} 
-%\]  
-
-
-%}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\frame{\frametitle{Fuglede Conjecture}
-%
-%\begin{thm} [Fuglede Conjecture (1974)]
-%A domain $\Omega$ admits an operator spectrum if and only if it is possible to %tile $\mathbb{R}^d$ by a family of translates of $\Omega$.
-%\end{thm}
-%
-%\pause
-%
-%This has been shown to be true in a variety of special cases however it has been %shown to be false in both directions in dimensions 3 and higher. 
-%
-%	
-%}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\frame{\frametitle{Tying It All Together }
-%
-%
-%
-%\begin{thm} [Dutkay and Jorgensen, 2013]
-%The following statements are equivalent.
-%\begin{enumerate}
-%    \item The Universal Tiling Conjecture is true for all $p \in \mathbb{N}$
-%    \item Every bounded Lebesgue measurable spectral set tiles by translations.
-%\end{enumerate}
-%
-%Moreover, if these statements are true and if $\Omega, |\Omega |=1, $ is a %bounded Lebesgue measurable set which has a spectrum with period $p$, then $\Omega$ tiles by a subset $\Tau$ of $\frac{1}{p} \mathbb{Z}$
-%
-%\end{thm}
-%
-%	
-%}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%
+}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results/Further Study}
@@ -406,9 +335,7 @@
 
 \frame{\frametitle{Results}
 	\begin{itemize}
-		\item All of the Hadamard submatrices from $\mathcal{F}_{2}$ up to $\mathcal{F}_{18}$ with common columns sets share a common tiling set $T$.
-
-		\item The Hadamard submatrices of size 2, 4, and 5 from $\mathcal{F}_{20}$ with common columns sets share a common tiling set $T$.
+		\item All of the Hadamard submatrices from $\mathcal{F}_{2}$ up to $\mathcal{F}_{24}$ with common columns sets share a common tiling set $T$.
 
 		\item  However, there can be multiple tiling sets amongst the same size of Hadamard submatrices generated from the same Fourier Matrix.
 	\end{itemize}
@@ -419,11 +346,14 @@
 \frame{\frametitle{Further Study}
 	We have developed multiple goals to help guide this project further:
 	\begin{itemize}
-		\item Write the Hadamard Submatrix Generator in a less interpreted language to be able to gather more submatrices to analyze
-		\item Increase the capacity of the Tiling Check Program to handle larger submatrices when they are produced.
+		\item Develop a better algorithm for determing all of the Hadamard submatrices from a Fourier matrix.
+		      \pause
+		\item Develop a stronger tiling condition
+		      \pause
+		\item Primitive Sets as a potential condition for Hadamard Existence
 	\end{itemize}
 }
-%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%
 \frame{\frametitle{References}
 	\begin{itemize}
